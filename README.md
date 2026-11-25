@@ -55,6 +55,7 @@ Restart `npm run dev`. The footer and `/about` show which AI engine is active. S
 - **Place pages**: a gallery with photo credits, awards, rankings, an **AI review summary** (pros and cons, aspect scores, who it's best for, quotes), rating and sub-rating breakdowns, and full-text-searchable reviews with filters for rating, trip type, season, language and photos. Also AI-answered **Q&A**, an estimated **seasonal price calendar** for hotels, nearby places and similar places.
 - **Smart search**: natural-language queries such as "quiet boutique hotel with a view in Lisbon under $300" are turned into structured filters, which relax gracefully when nothing matches exactly.
 - **Explore map**: destination bubbles that turn into individual places as you zoom in, with type and rating filters and a synced list of what's in view.
+- **Interface languages**: English and Russian, switched from the header (stored in a `wf_locale` cookie, `Accept-Language` ignored on purpose). Chrome — header, nav, footer, home, auth, 404, cookie banner — is translated; user-generated content and long inner pages stay English.
 
 ### Plan
 - **AI trip planner**: k-means clustering by neighbourhood with 2-opt routing, meals at sensible times, weather-aware day swaps (indoor sights go on rainy days), day trips, hotel selection by budget and location, cost estimates, and live progress streaming.
