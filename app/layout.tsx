@@ -13,6 +13,7 @@ import { getPlan } from "@/lib/data/billing";
 import { isBusinessOwner } from "@/lib/data/business";
 import { savedPlaceIds } from "@/lib/data/misc";
 import { unreadCount } from "@/lib/data/notifications";
+import { getLocale } from "@/lib/locale";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -43,17 +44,18 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const unread = user ? unreadCount(user.id) : 0;
   const owner = user ? isBusinessOwner(user.id) : false;
   const ai = aiStatus();
+  const locale = await getLocale();
   const nonce = (await headers()).get("x-nonce") || undefined; // set by proxy.ts in production; Next also nonce-matches it from the CSP header
   return (
-    <html lang="en" className={`${inter.variable} ${fraunces.variable}`} suppressHydrationWarning>
+    <html lang={locale} className={`${inter.variable} ${fraunces.variable}`} suppressHydrationWarning>
       <head>
         <script nonce={nonce} dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="min-h-screen flex flex-col">
-        <AppProviders user={user ? { id: user.id, username: user.username, displayName: user.displayName, avatarColor: user.avatarColor, role: user.role, plan } : null} savedIds={saved} ai={{ provider: ai.provider, label: ai.label }}>
-          <SiteHeader user={user} plan={plan} unread={unread} isOwner={owner} />
+        <AppProviders user={user ? { id: user.id, username: user.username, displayName: user.displayName, avatarColor: user.avatarColor, role: user.role, plan } : null} savedIds={saved} ai={{ provider: ai.provider, label: ai.label }} locale={locale}>
+          <SiteHeader user={user} plan={plan} unread={unread} isOwner={owner} locale={locale} />
           <main className="flex-1">{children}</main>
-          <SiteFooter ai={ai} />
+          <SiteFooter ai={ai} locale={locale} />
           <CompareTray />
           <ChatWidget />
           <CookieBanner />

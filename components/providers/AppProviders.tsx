@@ -4,6 +4,7 @@ import { CheckCircle2, Info, TriangleAlert, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { createContext, useCallback, useContext, useMemo, useRef, useState } from "react";
 import { UpgradeDialog, type UpgradeReason } from "@/components/billing/UpgradeDialog";
+import { useT, type Locale, type TFunc } from "@/lib/locale-core";
 
 export interface ClientUser {
   id: number;
@@ -35,6 +36,9 @@ interface AppContextValue {
   /** Opens the Wayfarer Plus upsell, optionally with the server's quota message. */
   upgrade: (reason?: UpgradeReason, message?: string | null) => void;
   isPlus: boolean;
+  locale: Locale;
+  /** t("nav.plan", {n}) — dictionary lookup with {name} interpolation. */
+  t: TFunc;
 }
 
 const AppContext = createContext<AppContextValue | null>(null);
@@ -50,13 +54,16 @@ export function AppProviders({
   user,
   savedIds,
   ai,
+  locale,
 }: {
   children: React.ReactNode;
   user: ClientUser | null;
   savedIds: number[];
   ai: { provider: "claude" | "local"; label: string };
+  locale: Locale;
 }) {
   const router = useRouter();
+  const t = useT(locale);
   const [saved, setSaved] = useState(() => new Set(savedIds));
   const [toasts, setToasts] = useState<Toast[]>([]);
   const [chat, setChat] = useState({ open: false, prompt: null as string | null, nonce: 0 });
@@ -120,8 +127,10 @@ export function AppProviders({
       requireLogin,
       upgrade: (reason: UpgradeReason = "generic", message: string | null = null) => setUpsell({ open: true, reason, message }),
       isPlus: user?.plan === "plus",
+      locale,
+      t,
     }),
-    [user, ai, saved, toggleSave, toast, chat, requireLogin]
+    [user, ai, saved, toggleSave, toast, chat, requireLogin, locale, t]
   );
 
   return (

@@ -20,3 +20,11 @@ jobs:
       # Runs against a fresh auto-seeded DB — no data/wayfarer.db in the repo.
       - run: npm test
       - run: npm run build
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Build-only: catches container-only breakage (e.g. edge-bundle module errors).
+      - name: Build image
+        run: docker build -t wayfarer:ci .

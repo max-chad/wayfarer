@@ -3,12 +3,12 @@
 import { MessageCircle, Search } from "lucide-react";
 import Link from "next/link";
 import { useApp } from "@/components/providers/AppProviders";
-
-const SEARCHES = ["Romantic dinner with a view in Paris", "Cheap street food in Bangkok", "Family-friendly hotel with a pool in Singapore", "Hidden gems in Lisbon"];
-const ASKS = ["Plan 4 days in Kyoto for a foodie couple", "Where's warm in February under $150/day?", "Lisbon or Barcelona for a first trip?"];
+import { translateList } from "@/lib/locale-core";
 
 export function HeroPrompts() {
-  const { openChat } = useApp();
+  const { openChat, locale } = useApp();
+  const SEARCHES = translateList(locale, "home.heroSearches");
+  const ASKS = translateList(locale, "home.heroAsks");
   return (
     <div className="mt-5 flex flex-wrap gap-2">
       {SEARCHES.map((s) => (

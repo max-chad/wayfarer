@@ -5,9 +5,11 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { LogoMark } from "@/components/layout/Logo";
+import { useApp } from "@/components/providers/AppProviders";
 
 export function AuthForm({ mode, next }: { mode: "login" | "signup"; next: string }) {
   const router = useRouter();
+  const { t } = useApp();
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [form, setForm] = useState({ identifier: "", password: "", displayName: "", username: "", email: "", homeCity: "" });
@@ -19,7 +21,7 @@ export function AuthForm({ mode, next }: { mode: "login" | "signup"; next: strin
     try {
       const r = await fetch(url, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
       const j = await r.json();
-      if (!r.ok) throw new Error(j.error || "Something went wrong");
+      if (!r.ok) throw new Error(j.error || t("auth.somethingWrong"));
       router.push(next);
       router.refresh();
     } catch (e) {
@@ -40,20 +42,20 @@ export function AuthForm({ mode, next }: { mode: "login" | "signup"; next: strin
         <div className="ai-gradient relative overflow-hidden rounded-[2rem] p-10 text-white shadow-lift">
           <div className="absolute -right-16 -top-16 size-64 rounded-full bg-white/10 blur-2xl" />
           <Sparkles className="size-8" />
-          <h2 className="mt-6 font-display text-4xl font-semibold leading-tight">Your travel memory, supercharged.</h2>
+          <h2 className="mt-6 font-display text-4xl font-semibold leading-tight">{t("auth.heroTitle")}</h2>
           <ul className="mt-6 space-y-3 text-white/90">
-            <li>✓ Save places to wishlists and trips</li>
-            <li>✓ Drag-and-drop itineraries with maps & weather</li>
-            <li>✓ Share trips with a link, export to your calendar</li>
-            <li>✓ Write reviews with an AI writing coach</li>
-            <li>✓ Earn badges and climb the contributor levels</li>
+            <li>{t("auth.hero1")}</li>
+            <li>{t("auth.hero2")}</li>
+            <li>{t("auth.hero3")}</li>
+            <li>{t("auth.hero4")}</li>
+            <li>{t("auth.hero5")}</li>
           </ul>
         </div>
       </div>
       <div className="mx-auto w-full max-w-md">
         <LogoMark className="size-10" />
-        <h1 className="mt-5 font-display text-3xl font-semibold">{mode === "login" ? "Welcome back" : "Create your account"}</h1>
-        <p className="mt-1 text-muted">{mode === "login" ? "Sign in to your trips, saves and reviews." : "It takes 20 seconds. No credit card, obviously."}</p>
+        <h1 className="mt-5 font-display text-3xl font-semibold">{mode === "login" ? t("auth.welcome") : t("auth.create")}</h1>
+        <p className="mt-1 text-muted">{mode === "login" ? t("auth.welcomeSub") : t("auth.createSub")}</p>
 
         {mode === "login" && (
           <button
@@ -66,8 +68,8 @@ export function AuthForm({ mode, next }: { mode: "login" | "signup"; next: strin
               <Sparkles className="size-5" />
             </span>
             <span>
-              <span className="block font-semibold">Explore with the demo account</span>
-              <span className="text-xs text-muted">Pre-loaded trips, saves and admin access — one click</span>
+              <span className="block font-semibold">{t("auth.demo")}</span>
+              <span className="text-xs text-muted">{t("auth.demoSub")}</span>
             </span>
           </button>
         )}
@@ -77,13 +79,13 @@ export function AuthForm({ mode, next }: { mode: "login" | "signup"; next: strin
             <>
               <div>
                 <label className="label" htmlFor="identifier">
-                  Email or username
+                  {t("auth.emailOrUser")}
                 </label>
                 <input id="identifier" autoComplete="username" required value={form.identifier} onChange={set("identifier")} className="input" />
               </div>
               <div>
                 <label className="label" htmlFor="password">
-                  Password
+                  {t("auth.password")}
                 </label>
                 <input id="password" type="password" autoComplete="current-password" required value={form.password} onChange={set("password")} className="input" />
               </div>
@@ -93,50 +95,50 @@ export function AuthForm({ mode, next }: { mode: "login" | "signup"; next: strin
               <div className="grid grid-cols-2 gap-3">
                 <div>
                   <label className="label" htmlFor="displayName">
-                    Your name
+                    {t("auth.yourName")}
                   </label>
                   <input id="displayName" required value={form.displayName} onChange={set("displayName")} className="input" />
                 </div>
                 <div>
                   <label className="label" htmlFor="username">
-                    Username
+                    {t("auth.username")}
                   </label>
-                  <input id="username" required value={form.username} onChange={set("username")} className="input" pattern="[a-zA-Z0-9_.]{3,24}" title="3–24 letters, numbers, dots or underscores" />
+                  <input id="username" required value={form.username} onChange={set("username")} className="input" pattern="[a-zA-Z0-9_.]{3,24}" title={t("auth.usernameHint")} />
                 </div>
               </div>
               <div>
                 <label className="label" htmlFor="email">
-                  Email
+                  {t("auth.email")}
                 </label>
                 <input id="email" type="email" autoComplete="email" required value={form.email} onChange={set("email")} className="input" />
               </div>
               <div>
                 <label className="label" htmlFor="password">
-                  Password
+                  {t("auth.password")}
                 </label>
                 <input id="password" type="password" autoComplete="new-password" required minLength={8} value={form.password} onChange={set("password")} className="input" />
-                <p className="mt-1 text-xs text-muted">At least 8 characters.</p>
+                <p className="mt-1 text-xs text-muted">{t("auth.pwHint")}</p>
               </div>
             </>
           )}
           {error && <p className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700 dark:bg-red-900/30 dark:text-red-300">{error}</p>}
           <button disabled={busy} className="btn btn-dark btn-lg w-full">
-            {busy && <Loader2 className="size-4 animate-spin" />} {mode === "login" ? "Sign in" : "Create account"}
+            {busy && <Loader2 className="size-4 animate-spin" />} {mode === "login" ? t("auth.signIn") : t("auth.createOne")}
           </button>
         </form>
         <p className="mt-6 text-center text-sm text-muted">
           {mode === "login" ? (
             <>
-              New to Wayfarer?{" "}
+              {t("auth.newHere")}{" "}
               <Link href={`/signup?next=${encodeURIComponent(next)}`} className="font-semibold text-brand-700 hover:underline dark:text-brand-400">
-                Create an account
+                {t("auth.createOne")}
               </Link>
             </>
           ) : (
             <>
-              Already have an account?{" "}
+              {t("auth.haveAccount")}{" "}
               <Link href={`/login?next=${encodeURIComponent(next)}`} className="font-semibold text-brand-700 hover:underline dark:text-brand-400">
-                Sign in
+                {t("auth.signIn")}
               </Link>
             </>
           )}

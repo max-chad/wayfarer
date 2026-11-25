@@ -3,6 +3,7 @@
 import { Cookie } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useApp } from "@/components/providers/AppProviders";
 
 const COOKIE = "wf_consent";
 
@@ -12,6 +13,7 @@ function readConsent() {
 
 /** Consent for optional analytics. Essential cookies (session, theme) don't need it; "Essential only" is equally prominent. */
 export function CookieBanner() {
+  const { t } = useApp();
   const [show, setShow] = useState(false);
   useEffect(() => {
     setShow(!readConsent());
@@ -26,21 +28,20 @@ export function CookieBanner() {
     setShow(false);
   };
   return (
-    <div className="fixed inset-x-3 bottom-3 z-[75] sm:left-auto sm:right-4 sm:max-w-sm" role="dialog" aria-label="Cookie preferences">
+    <div className="fixed inset-x-3 bottom-3 z-[75] sm:left-auto sm:right-4 sm:max-w-sm" role="dialog" aria-label={t("cookies.prefs")}>
       <div className="card p-4 text-sm shadow-xl">
         <div className="flex items-center gap-2 font-semibold">
-          <Cookie className="size-4 text-coral-500" /> Your privacy choices
+          <Cookie className="size-4 text-coral-500" /> {t("cookies.title")}
         </div>
         <p className="mt-1.5 text-ink-2">
-          We use essential cookies to keep you signed in. With your OK we also attribute partner clicks and bookings to your account so we can show you your
-          history — never sold, never used for third-party ads. <Link href="/legal/cookies" className="underline">Cookie policy</Link>
+          {t("cookies.body")} <Link href="/legal/cookies" className="underline">{t("cookies.policy")}</Link>
         </p>
         <div className="mt-3 grid grid-cols-2 gap-2">
           <button onClick={() => choose("essential")} className="btn btn-outline btn-sm">
-            Essential only
+            {t("cookies.essential")}
           </button>
           <button onClick={() => choose("all")} className="btn btn-dark btn-sm">
-            Allow analytics
+            {t("cookies.allow")}
           </button>
         </div>
       </div>
@@ -49,9 +50,10 @@ export function CookieBanner() {
 }
 
 export function CookieSettingsLink({ className }: { className?: string }) {
+  const { t } = useApp();
   return (
     <button type="button" className={className} onClick={() => window.dispatchEvent(new Event("wf:cookie-settings"))}>
-      Cookie settings
+      {t("cookies.settings")}
     </button>
   );
 }

@@ -3,18 +3,20 @@
 import { Sparkles } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useApp } from "@/components/providers/AppProviders";
 import { cn } from "@/lib/utils";
 
-export const NAV = [
-  { href: "/destinations", label: "Destinations" },
-  { href: "/plan", label: "Plan a trip", ai: true },
-  { href: "/concierge", label: "Concierge", ai: true },
-  { href: "/map", label: "Map" },
-  { href: "/trips", label: "Trips" },
+export const NAV: { href: string; key: string; ai?: boolean }[] = [
+  { href: "/destinations", key: "destinations" },
+  { href: "/plan", key: "plan", ai: true },
+  { href: "/concierge", key: "concierge", ai: true },
+  { href: "/map", key: "map" },
+  { href: "/trips", key: "trips" },
 ];
 
 export function NavLinks() {
   const path = usePathname();
+  const { t } = useApp();
   return (
     <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Main">
       {NAV.map((n) => {
@@ -29,7 +31,7 @@ export function NavLinks() {
             )}
           >
             {n.ai && <Sparkles className="size-3.5 text-coral-500" />}
-            {n.label}
+            {t(`nav.${n.key}`)}
           </Link>
         );
       })}
