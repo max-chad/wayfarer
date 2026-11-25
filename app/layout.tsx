@@ -16,7 +16,8 @@ import { unreadCount } from "@/lib/data/notifications";
 import { getLocale } from "@/lib/locale";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+const inter = Inter({ subsets: ["latin", "cyrillic"], variable: "--font-inter", display: "swap" });
+// Fraunces ships no Cyrillic subset — RU display headings fall back to the system serif.
 const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces", display: "swap", axes: ["opsz", "SOFT"] });
 
 export const metadata: Metadata = {
