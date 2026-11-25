@@ -11,7 +11,7 @@ export async function POST(req: Request) {
   const { locale } = (body || {}) as { locale?: unknown };
   if (typeof locale !== "string" || !(LOCALES as readonly string[]).includes(locale)) return fail("Unsupported locale", 422);
   const res = ok({ locale });
-  // Client-set preference cookie: httpOnly off so the header switcher can also read it; 1 year.
+  // Preference cookie written here and read server-side by getLocale(); 1 year.
   res.headers.append("Set-Cookie", `${LOCALE_COOKIE}=${locale}; Path=/; Max-Age=${365 * 86400}; SameSite=Lax`);
   return res;
 }
