@@ -1,0 +1,55 @@
+Loaded 1 destination source files
+[pool] hotel_bathroom: 5 images
+[pool] hostel: 24 images
+  retry in 26s (HTTP 429)
+[pool] restaurant_interior: 24 images
+[pool] cafe: 24 images
+  retry in 45s (HTTP 429)
+[pool] bar: 24 images
+  retry in 43s (HTTP 429)
+[pool] fine_dining: 11 images
+[pool] street_food: 24 images
+  retry in 44s (HTTP 429)
+[pool] food_italian: 24 images
+[pool] food_japanese: 24 images
+  retry in 41s (HTTP 429)
+[pool] food_french: 24 images
+[pool] food_spanish: 24 images
+  retry in 43s (HTTP 429)
+[pool] food_mexican: 24 images
+[pool] food_thai: 24 images
+  retry in 43s (HTTP 429)
+[pool] food_vietnamese: 24 images
+[pool] food_korean: 24 images
+  retry in 41s (HTTP 429)
+[pool] food_chinese: 24 images
+[pool] food_indian: 24 images
+  retry in 46s (HTTP 429)
+[pool] food_middle_eastern: 24 images
+  retry in 45s (HTTP 429)
+[pool] food_seafood: 24 images
+[pool] food_grill: 24 images
+  retry in 38s (HTTP 429)
+[pool] food_latin: 24 images
+  retry in 44s (HTTP 429)
+[pool] food_greek: 24 images
+[pool] food_turkish: 24 images
+  retry in 47s (HTTP 429)
+[pool] food_brunch: 24 images
+  retry in 42s (HTTP 429)
+[pool] food_vegan: 24 images
+[pool] food_bakery: 24 images
+[pool] exp_tour: 24 images
+  retry in 41s (HTTP 429)
+[pool] exp_class: 24 images
+[pool] exp_cruise: 24 images
+  retry in 41s (HTTP 429)
+[pool] exp_daytrip: 24 images
+  retry in 49s (HTTP 429)
+[pool] exp_food: 24 images
+[pool] exp_adventure: 24 images
+  retry in 42s (HTTP 429)
+[pool] exp_wellness: 24 images
+[pool] exp_nightlife: 24 images
+
+Done. pages=0 missing=0 noImage=0

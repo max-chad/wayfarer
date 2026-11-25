@@ -1,0 +1,42 @@
+Loaded 32 destination source files
+[pages] 352 titles, 352 to fetch
+  ! no usable image: Museo de Arte Precolombino
+[pool] hotel_bathroom: 5 images
+[climate] new-york ok
+[climate] san-francisco ok
+[climate] mexico-city ok
+[climate] florence ok
+[climate] rome ok
+[climate] santorini ok
+[climate] rio-de-janeiro ok
+[climate] istanbul ok
+[climate] london ok
+[climate] buenos-aires ok
+[climate] tokyo ok
+[climate] kyoto ok
+[climate] reykjavik ok
+[climate] bali ok
+[climate] bangkok ok
+[climate] cusco ok
+[climate] marrakech ok
+[climate] singapore ok
+[climate] seoul ok
+[climate] prague ok
+  retry in 5s (HTTP 429)
+  retry in 10s (HTTP 429)
+  retry in 20s (HTTP 429)
+[climate] cairo ok
+[climate] hanoi ok
+[climate] sydney ok
+[climate] vienna ok
+[climate] cape-town ok
+[climate] vancouver ok
+[climate] amsterdam ok
+[climate] paris ok
+[climate] barcelona ok
+[climate] lisbon ok
+[climate] queenstown ok
+[climate] dubai ok
+
+Done. pages=352 missing=0 noImage=1
+Pages without image: Museo de Arte Precolombino

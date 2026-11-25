@@ -1,0 +1,2530 @@
+{
+  "types": {
+    "hotel": {
+      "aspects": {
+        "location": {
+          "label": "Location",
+          "keywords": [
+            "location",
+            "located",
+            "walking distance",
+            "metro",
+            "neighborhood",
+            "central",
+            "short walk",
+            "station",
+            "nearby",
+            "convenient"
+          ],
+          "positive": [
+            "The location of {place} is unbeatable, right in the heart of {neighborhood}.",
+            "We walked everywhere, since {nearby} was only a short walk away.",
+            "Perfectly located for exploring {city} on foot.",
+            "Two minutes from {place} to the metro, which made day trips incredibly easy.",
+            "I loved the neighborhood, full of little bakeries and wine bars that locals actually use.",
+            "Honestly, you can't ask for a more central base than {place}.",
+            "Everything we wanted to see was within walking distance, so we never once needed a taxi.",
+            "Being so close to the main station was a lifesaver with {companion} and all our bags.",
+            "Great location at {place}: quiet side street, but restaurants and shops nearby in every direction."
+          ],
+          "neutral": [
+            "The location is fine if you have a metro pass, though it's a bit far from the old town.",
+            "{place} is located on a busy road, convenient but not especially charming.",
+            "The neighborhood is residential and a little sleepy at night, which may or may not suit you.",
+            "It's about a 20-minute walk to {nearby}, doable but not exactly central.",
+            "{place} is convenient for the airport train, less so for sightseeing."
+          ],
+          "negative": [
+            "The location was the real letdown, a good 40 minutes from anything worth seeing.",
+            "Photos make {place} look central, but it's actually a bus ride from the main sights.",
+            "The surrounding neighborhood felt a bit sketchy after dark and we didn't enjoy walking back.",
+            "Nearest metro stop is a steep 15-minute climb, which got old fast with {companion}.",
+            "{place} is not convenient at all unless you have a car.",
+            "Nothing nearby except a petrol station and an office park.",
+            "The listing said walking distance to the center; in reality it took us nearly an hour."
+          ]
+        },
+        "cleanliness": {
+          "label": "Cleanliness",
+          "keywords": [
+            "clean",
+            "spotless",
+            "dust",
+            "housekeeping",
+            "tidy",
+            "stain",
+            "hygiene",
+            "fresh towels",
+            "immaculate",
+            "dirty"
+          ],
+          "positive": [
+            "The room was spotless from the moment we arrived until we left.",
+            "Housekeeping at {place} did an amazing job every single day.",
+            "Everything at {place} was immaculate, down to the grout in the shower.",
+            "Super clean, smelled fresh, and the bathroom sparkled.",
+            "I'm fussy about hygiene and couldn't find a single thing to complain about.",
+            "Fresh towels daily, and the room was made up perfectly even when we came back at odd hours.",
+            "{place} was the cleanest hotel we stayed in during our whole trip.",
+            "Not a speck of dust anywhere, even on top of the wardrobe (yes, I checked).",
+            "{companion} and I were impressed by how clean the common areas at {place} were kept."
+          ],
+          "neutral": [
+            "Generally clean, though the bathroom grout could use some attention.",
+            "Housekeeping was a bit hit and miss: great one day, forgotten the next.",
+            "The room was tidy enough, but the carpet had clearly seen better years.",
+            "Clean sheets and towels, but a little dust under the bed.",
+            "Reasonably clean for the price at {place}, nothing more, nothing less."
+          ],
+          "negative": [
+            "We found hair in the shower and a stain on the duvet on arrival.",
+            "The room at {place} was not clean when we checked in, and it took two calls to fix.",
+            "Housekeeping skipped our room three days in a row without explanation.",
+            "Dusty surfaces, sticky floors and a bathroom that smelled of damp.",
+            "Honestly, the dirty glasses in the room put me off the whole stay.",
+            "For a four-star property, the hygiene standards at {place} were disappointing.",
+            "We asked for fresh towels twice and never got them."
+          ]
+        },
+        "staff": {
+          "label": "Staff & service",
+          "keywords": [
+            "staff",
+            "reception",
+            "receptionist",
+            "concierge",
+            "front desk",
+            "helpful",
+            "team",
+            "manager",
+            "doorman",
+            "welcoming"
+          ],
+          "positive": [
+            "The staff at {place} went out of their way to make us feel at home.",
+            "{staff} at reception gave us the best restaurant recommendations of the whole trip.",
+            "Every single team member greeted us by name after day one.",
+            "The concierge at {place} booked us a table that we'd been told was impossible to get.",
+            "Warm, welcoming and genuinely helpful, the team at {place} never felt scripted.",
+            "When {companion} fell ill, the front desk called a doctor within minutes.",
+            "The night receptionist even made us tea when we arrived exhausted at 2am.",
+            "Special thanks to {staff} at the front desk, who remembered our anniversary and left a card in the room.",
+            "The staff made {place} feel less like a hotel and more like staying with friends."
+          ],
+          "neutral": [
+            "Staff at {place} were polite and efficient, though not especially warm.",
+            "Reception was helpful during the day, but the night shift spoke limited English.",
+            "The team seemed stretched thin, but they did their best.",
+            "Friendly enough staff, just don't expect much in the way of local tips.",
+            "The concierge at {place} was knowledgeable, though hard to catch at busy times."
+          ],
+          "negative": [
+            "The receptionist barely looked up from her phone when we checked in.",
+            "Staff at {place} seemed annoyed every time we asked a question.",
+            "We reported a broken lock and the front desk shrugged it off.",
+            "Asked to speak to a manager about the billing error and nobody ever came.",
+            "Not a welcoming vibe at all; we felt like an inconvenience.",
+            "The doorman was rude to {companion} for no reason we could figure out.",
+            "Staff promised a room change three times and never delivered."
+          ]
+        },
+        "room": {
+          "label": "Room",
+          "keywords": [
+            "room",
+            "suite",
+            "spacious",
+            "bathroom",
+            "shower",
+            "decor",
+            "wardrobe",
+            "air conditioning",
+            "cramped",
+            "balcony"
+          ],
+          "positive": [
+            "Our room was huge by {city} standards, with space to leave two suitcases wide open.",
+            "The suite at {place} had a separate lounge area and a gorgeous rain shower.",
+            "Stylish decor at {place} without feeling fussy, and loads of storage.",
+            "Spacious, bright and thoughtfully designed, down to the plug sockets by the bed.",
+            "The bathroom was a highlight, with a deep tub and heated floors.",
+            "Loved the little balcony where we had coffee every morning.",
+            "Air conditioning worked perfectly, which mattered a lot in {month}.",
+            "{place} upgraded us to a corner room and we didn't want to leave.",
+            "Great water pressure in the shower and proper blackout curtains."
+          ],
+          "neutral": [
+            "The room was compact but well laid out.",
+            "Decor is a bit dated, but everything worked.",
+            "Decent size room, though the bathroom had no door, just a sliding screen.",
+            "The wardrobe was tiny, so we lived out of our suitcases.",
+            "Standard room at {place}, nothing special, nothing wrong."
+          ],
+          "negative": [
+            "Our room at {place} was so cramped we had to take turns standing up.",
+            "The shower at {place} alternated between scalding and freezing.",
+            "Air conditioning was broken for two nights in a heatwave.",
+            "Tired decor, peeling wallpaper and a musty smell in the room.",
+            "The bathroom door didn't lock and the sink drained painfully slowly.",
+            "Our 'deluxe' room at {place} looked nothing like the photos online.",
+            "The balcony was advertised but turned out to be a ledge you couldn't stand on."
+          ]
+        },
+        "bed": {
+          "label": "Bed & sleep quality",
+          "keywords": [
+            "bed",
+            "mattress",
+            "pillow",
+            "sheets",
+            "linen",
+            "slept",
+            "sleep",
+            "duvet",
+            "blanket"
+          ],
+          "positive": [
+            "Best bed I've slept in all year, and I travel for work constantly.",
+            "The mattress at {place} was firm but so comfortable.",
+            "A pillow menu, crisp linen and a heavenly duvet.",
+            "We slept like babies every single night.",
+            "Both {companion} and I slept better here than we do at home.",
+            "Huge bed, soft sheets and perfect blackout curtains at {place}.",
+            "I seriously considered asking where they buy their pillows.",
+            "Such a comfortable bed that we nearly missed our morning tour.",
+            "The beds at {place} are worth the stay alone."
+          ],
+          "neutral": [
+            "The bed at {place} was comfortable enough, though a little soft for my taste.",
+            "Two single beds pushed together, which was fine but not ideal for a couple.",
+            "Pillows were thin, but we asked for extras and they arrived quickly.",
+            "Decent mattress at {place}, slightly scratchy sheets.",
+            "Sleep quality was okay once we figured out the thermostat."
+          ],
+          "negative": [
+            "The mattress sagged in the middle and I woke up with a sore back every morning.",
+            "Pillows at {place} were flat as pancakes.",
+            "The bed creaked every time either of us moved.",
+            "Only one thin blanket and no spare duvet, even in a cold snap.",
+            "The sheets felt like they'd been washed a thousand times too many.",
+            "Barely slept at {place} thanks to a bed that felt like a board.",
+            "A sofa bed marketed as a 'double' is not a double."
+          ]
+        },
+        "breakfast": {
+          "label": "Breakfast",
+          "keywords": [
+            "breakfast",
+            "buffet",
+            "coffee",
+            "pastries",
+            "eggs",
+            "morning meal",
+            "croissant",
+            "fruit",
+            "juice",
+            "omelette"
+          ],
+          "positive": [
+            "Breakfast at {place} was a feast, with local cheeses, fresh bread and cooked-to-order eggs.",
+            "The buffet had something for everyone, including proper gluten-free options.",
+            "Freshly squeezed juice and the best croissant I had in {city}.",
+            "{staff} made us a custom omelette every morning without being asked twice.",
+            "Great coffee, which is rarer at hotel breakfasts than it should be.",
+            "The pastries at {place} alone were worth waking up for.",
+            "A lovely morning meal on the terrace with plenty of seasonal fruit.",
+            "{companion} went back for thirds at breakfast every single day.",
+            "Breakfast was included at {place} and genuinely better than most cafés nearby."
+          ],
+          "neutral": [
+            "Breakfast was decent but repetitive after a few days.",
+            "The buffet was fine, though the eggs were lukewarm.",
+            "Good coffee, limited hot options.",
+            "Breakfast isn't included at {place}, and at that price we preferred a café down the street.",
+            "Nice pastries, but the breakfast room got crowded around 9am."
+          ],
+          "negative": [
+            "The breakfast at {place} was sad: packaged pastries and instant coffee.",
+            "At {place} the buffet items ran out by 8:30 and were never replenished.",
+            "Rubbery scrambled eggs and a juice machine that didn't work.",
+            "Way overpriced for a very basic breakfast.",
+            "We had to queue for 20 minutes to get a table for breakfast.",
+            "The fruit was clearly from a tin and the croissant was stale.",
+            "Coffee at {place} tasted burnt every single morning."
+          ]
+        },
+        "value": {
+          "label": "Value for money",
+          "keywords": [
+            "value",
+            "price",
+            "worth",
+            "money",
+            "expensive",
+            "overpriced",
+            "bargain",
+            "cost",
+            "budget",
+            "paid"
+          ],
+          "positive": [
+            "Excellent value for money, especially compared to other hotels in {neighborhood}.",
+            "For the price, {place} punches way above its weight.",
+            "We paid less than we expected and got far more than we bargained for.",
+            "Worth every penny.",
+            "A real bargain in an expensive city like {city}.",
+            "Not cheap, but the quality justified the cost.",
+            "{place} is great value when you factor in the free breakfast and airport shuttle.",
+            "We traveled on a tight budget and never felt like we were compromising.",
+            "Honestly, I'd happily pay more to stay at {place} again; it's worth it."
+          ],
+          "neutral": [
+            "Fair price for what you get at {place}, nothing more.",
+            "{place} is a little expensive, but you're paying for the location.",
+            "Value depends on the season; our {month} rate was reasonable.",
+            "Decent value if you book early, less so at the last minute.",
+            "The room price was fine, but the extras add up quickly."
+          ],
+          "negative": [
+            "Seriously overpriced for a room this small.",
+            "Not worth the money, especially with the surprise city tax and resort fee.",
+            "At this price I expected at least a working kettle.",
+            "{place} charges luxury prices for three-star service.",
+            "The cost of parking alone was outrageous.",
+            "We paid a premium for a view room and faced a brick wall.",
+            "{place} is too expensive for what is essentially a basic guesthouse."
+          ]
+        },
+        "noise": {
+          "label": "Noise",
+          "keywords": [
+            "noise",
+            "noisy",
+            "quiet",
+            "loud",
+            "soundproof",
+            "street noise",
+            "thin walls",
+            "earplugs",
+            "peaceful",
+            "traffic"
+          ],
+          "positive": [
+            "{place} was surprisingly quiet for such a central spot.",
+            "The windows are properly soundproof; we heard nothing from the street.",
+            "{place} felt like a peaceful oasis in a busy city.",
+            "No noise from neighbors or the corridor at all.",
+            "We slept with the windows open and it was still quiet.",
+            "A peaceful courtyard room, perfect after long days of sightseeing.",
+            "Didn't need the earplugs they left on the pillow even once.",
+            "Even with a bar downstairs, the rooms at {place} stayed remarkably quiet.",
+            "The quiet was the thing {companion} appreciated most."
+          ],
+          "neutral": [
+            "Some street noise in the early morning, but nothing earplugs couldn't fix.",
+            "Quiet at night, though the housekeeping carts are loud around 9am.",
+            "Somewhat thin walls, but our neighbors were considerate.",
+            "Ask for a room at the back if you're sensitive to traffic.",
+            "The lift at {place} makes a bit of noise, so avoid rooms next to it."
+          ],
+          "negative": [
+            "{place} is incredibly noisy, with a nightclub across the road until 4am.",
+            "Paper-thin walls: we heard every word of our neighbors' phone calls.",
+            "The traffic noise from the main road made sleep almost impossible.",
+            "Construction work started at 7am every day, and the noise came with no warning.",
+            "Our room at {place} had a loud air conditioning unit that rattled all night.",
+            "{place} sits right above a tram line, so forget about a peaceful lie-in.",
+            "The earplugs on the nightstand should have been a warning."
+          ]
+        },
+        "amenities": {
+          "label": "Amenities (pool, spa, gym)",
+          "keywords": [
+            "pool",
+            "spa",
+            "gym",
+            "sauna",
+            "fitness",
+            "rooftop",
+            "hot tub",
+            "amenities",
+            "loungers",
+            "steam room"
+          ],
+          "positive": [
+            "The rooftop pool at {place} was the highlight of our stay.",
+            "A proper gym with modern equipment, not just a treadmill in a cupboard.",
+            "We booked a massage at the {place} spa and it was fantastic.",
+            "The sauna and steam room were perfect after a long day on our feet.",
+            "{companion} spent every afternoon by the pool and loved it.",
+            "Plenty of loungers around the pool at {place}, even at peak times.",
+            "Great amenities for the price, including a small but well-kept hot tub.",
+            "The fitness room was open 24 hours, which suited my jet lag.",
+            "Honestly, {place} has amenities you'd expect from somewhere twice the price."
+          ],
+          "neutral": [
+            "The pool at {place} is small but clean and rarely busy.",
+            "Gym is basic, fine for a quick workout.",
+            "Spa treatments are nice but pricey.",
+            "The rooftop bar closes early, which felt like a waste of a great space.",
+            "Amenities are limited, but the location makes up for it."
+          ],
+          "negative": [
+            "The pool was closed for maintenance for our entire stay, with no warning.",
+            "Gym equipment at {place} was either broken or missing.",
+            "The spa had to be booked days in advance and was always full.",
+            "Loungers were reserved with towels by 7am every morning.",
+            "The hot tub was lukewarm at best.",
+            "Advertised amenities at {place} were either closed or charged extra.",
+            "The sauna was out of order and nobody seemed to know when it would be fixed."
+          ]
+        },
+        "checkin": {
+          "label": "Check-in & check-out",
+          "keywords": [
+            "check-in",
+            "checked in",
+            "check-out",
+            "checkout",
+            "arrival",
+            "arrived",
+            "early check-in",
+            "luggage",
+            "key card",
+            "late checkout"
+          ],
+          "positive": [
+            "Check-in at {place} took less than five minutes, and our room was ready early.",
+            "{place} kindly offered us an early check-in after an overnight flight.",
+            "They stored our luggage for free on the last day so we could keep exploring.",
+            "{place} granted us a late checkout without any fuss.",
+            "A glass of something cold on arrival, lovely touch.",
+            "Checkout was just a quick wave; the bill had already been emailed.",
+            "{staff} walked us to our room after we checked in and explained everything.",
+            "Smooth arrival even though our flight landed at midnight.",
+            "Self check-in worked flawlessly, with the codes sent by message the day before."
+          ],
+          "neutral": [
+            "Check-in was fine, but there was a queue at 3pm.",
+            "Early check-in costs extra at {place}, which they're upfront about.",
+            "Check-out at {place} is at 10am, a bit early for my liking.",
+            "We had to wait for our key card to be reprogrammed twice.",
+            "Arrival was a bit confusing because the entrance is around the side."
+          ],
+          "negative": [
+            "We waited over an hour for check-in, even though we arrived after 4pm.",
+            "Our key card stopped working every single day.",
+            "The room wasn't ready on arrival and nobody offered to hold our luggage.",
+            "{place} charged us for a late checkout we never asked for.",
+            "Check-in at {place} felt chaotic, with one receptionist and a long line.",
+            "Our booking was 'lost' when we arrived, and it took ages to sort out.",
+            "Checkout was a mess of surprise charges we had to dispute."
+          ]
+        },
+        "views": {
+          "label": "Views",
+          "keywords": [
+            "view",
+            "views",
+            "overlooking",
+            "skyline",
+            "sunset",
+            "panoramic",
+            "window",
+            "terrace",
+            "sea view",
+            "rooftop"
+          ],
+          "positive": [
+            "The view from our room at {place} was breathtaking.",
+            "We watched the sunset over {city} from our balcony every evening.",
+            "Our room was overlooking the old town rooftops, simply magical.",
+            "Panoramic views of the skyline from the bar upstairs.",
+            "Waking up to that view from {place} never got old.",
+            "{companion} took about a hundred photos from the window.",
+            "Ask {place} for a high floor; the views are worth it.",
+            "The terrace looks straight at {nearby}, especially stunning at night.",
+            "A sea view that looked even better in person than in the pictures."
+          ],
+          "neutral": [
+            "Nice view, but only if you lean out of the window a bit.",
+            "Partial view of {nearby} from the corner rooms.",
+            "The rooftop terrace at {place} has great views, but the rooms themselves face a courtyard.",
+            "Our window looked onto a quiet street, pleasant but not special.",
+            "Views depend heavily on the floor you're given."
+          ],
+          "negative": [
+            "We paid extra for a view at {place} and got a wall and an air vent.",
+            "The window faced a construction site for our entire stay.",
+            "The so-called sea view at {place} required a very active imagination.",
+            "No view at all; the curtains stayed closed the entire time.",
+            "The terrace was closed, so we never got to enjoy the advertised skyline.",
+            "Our 'panoramic' room at {place} looked straight into an office building.",
+            "Disappointed that the rooftop was for events only, so no sunset drinks for us."
+          ]
+        },
+        "wifi": {
+          "label": "Wi-Fi",
+          "keywords": [
+            "wifi",
+            "wi-fi",
+            "internet",
+            "connection",
+            "signal",
+            "password",
+            "streaming",
+            "video call",
+            "remote work",
+            "bandwidth"
+          ],
+          "positive": [
+            "Fast, reliable Wi-Fi throughout {place}, even by the pool.",
+            "The internet was strong enough for video calls all week.",
+            "Perfect for remote work; I had a full day of meetings at {place} without a hiccup.",
+            "Free wifi with no password nonsense, it just connected automatically.",
+            "Streaming worked perfectly in the evenings.",
+            "Signal was strong everywhere at {place}, including the garden.",
+            "{companion} and I both worked remotely and the connection never dropped.",
+            "Easily the best hotel Wi-Fi I've had in {city}.",
+            "Plenty of bandwidth, even when the hotel was full."
+          ],
+          "neutral": [
+            "Wi-Fi at {place} is fine in the lobby, patchier in the rooms.",
+            "Internet was usable for email but struggled with video calls.",
+            "The wifi login expires every day, which is mildly annoying.",
+            "Connection speed varied a lot depending on the time of day.",
+            "Decent Wi-Fi, though the signal weakened on the top floor."
+          ],
+          "negative": [
+            "The Wi-Fi at {place} was practically nonexistent.",
+            "Couldn't join a single video call from the room.",
+            "Internet dropped every few minutes, useless for remote work.",
+            "{place} charges extra for 'premium' wifi, which is still slow.",
+            "No signal in the room at all; we had to sit in the stairwell.",
+            "The password changed daily and nobody at the desk was ever sure what it was.",
+            "Streaming at {place} was impossible, even at 3am."
+          ]
+        }
+      },
+      "openers": {
+        "positive": [
+          "We just got back from four nights at {place} and I already miss it.",
+          "What a find!",
+          "Stayed here with {companion} for a long weekend in {month}.",
+          "I rarely write reviews, but {place} deserves one.",
+          "This was our third stay at {place}, and it keeps getting better.",
+          "Booked {place} last minute and it turned out to be the best decision of the trip.",
+          "Our home base for a week in {city}, and we couldn't have chosen better.",
+          "From the moment we walked in, we knew we'd picked well.",
+          "Came for a work conference, ended up wishing I could stay longer.",
+          "Celebrated our anniversary here and it was just right.",
+          "If you're weighing up hotels in {neighborhood}, stop looking.",
+          "Short and sweet: we loved it."
+        ],
+        "mixed": [
+          "Stayed three nights at {place} in {month}, and it was a bit of a mixed bag.",
+          "Some things were great here, others not so much.",
+          "I went back and forth on how many stars to give {place}.",
+          "Good in parts, but not quite what the photos promise.",
+          "We had a pleasant enough stay, with a few caveats.",
+          "Booked this for a quick stopover in {city}, and it did the job.",
+          "Not a bad choice, but not one I'd rush back to either.",
+          "{place} is a solid hotel with a couple of frustrating quirks."
+        ],
+        "negative": [
+          "I really wanted to like {place}, but it let us down.",
+          "Unfortunately, our stay did not go to plan.",
+          "Save yourself the disappointment.",
+          "We cut our stay at {place} short, which says a lot.",
+          "This was the low point of an otherwise great trip to {city}.",
+          "I don't usually leave negative reviews, but here we are.",
+          "The reviews made us expect much more than we got.",
+          "Booked {place} for a special occasion, and it fell flat."
+        ]
+      },
+      "closers": {
+        "positive": [
+          "We'll definitely be back to {place} next time we're in {city}.",
+          "Highly recommend, especially for couples.",
+          "Can't wait to return.",
+          "Already recommended {place} to three friends.",
+          "Five stars, no hesitation.",
+          "Thank you to the whole team for a wonderful stay!",
+          "If you're on the fence, book it.",
+          "Easily one of the best hotels we've stayed in.",
+          "{companion} already asked when we can go back.",
+          "Worth it for every reason listed above.",
+          "Would stay at {place} again in a heartbeat.",
+          "A genuinely lovely place to come home to after a long day."
+        ],
+        "mixed": [
+          "Overall fine, but I'd probably try somewhere else next time.",
+          "Good for a night or two, less so for a longer stay.",
+          "Would consider {place} again if the price was right.",
+          "Not perfect, but it did the job.",
+          "Three stars feels fair.",
+          "Manage your expectations and you'll be fine.",
+          "Decent choice if you can get a good deal on {place}.",
+          "A few fixes and this could be a great hotel."
+        ],
+        "negative": [
+          "We won't be returning to {place}.",
+          "Look elsewhere; there are better options in {city}.",
+          "Can't recommend, sadly.",
+          "Very disappointing for the price {place} charges.",
+          "Hope management reads this and makes some changes.",
+          "Avoid if you want a good night's sleep.",
+          "Not the experience we were hoping for at all.",
+          "Our advice: book something else."
+        ]
+      },
+      "titles": {
+        "positive": [
+          "Perfect base for exploring {city}",
+          "Home away from home",
+          "Exceeded every expectation",
+          "Wonderful stay at {place}",
+          "Great staff, great location",
+          "Already planning our return",
+          "Small hotel, big heart",
+          "Just what we needed",
+          "Spotless, stylish and central",
+          "Best sleep of the trip",
+          "A gem in {neighborhood}",
+          "Would stay again in a heartbeat"
+        ],
+        "mixed": [
+          "Good location, average rooms",
+          "Fine for a short stay",
+          "Some highs, some lows",
+          "Nice but overpriced",
+          "Decent, not memorable",
+          "Great views, tired rooms",
+          "Mixed feelings about {place}",
+          "OK for the price"
+        ],
+        "negative": [
+          "Not as advertised",
+          "Disappointing stay",
+          "Noisy and overpriced",
+          "Would not return",
+          "Needs a serious refresh",
+          "Let down by the service",
+          "Avoid if you can",
+          "Far from what we expected"
+        ]
+      },
+      "tips": [
+        "Ask for a room on a higher floor for better views and less street noise.",
+        "Book directly with the hotel; they sometimes throw in breakfast or a late checkout.",
+        "The metro stop around the corner is quicker than a taxi to the old town.",
+        "Breakfast gets busy after 9am, so go early if you want a quiet table.",
+        "Request a courtyard-facing room if you're a light sleeper.",
+        "They'll hold your luggage after checkout, so you can make the most of your last day.",
+        "The rooftop is lovely at sunset, but get there early for a seat.",
+        "Skip the minibar; there's a small grocery store two minutes away.",
+        "Let reception know if you're celebrating something; they're great with little surprises.",
+        "Bring a power strip, as the rooms only have a couple of sockets.",
+        "Check whether the city tax is included in your rate, since it's charged at the desk.",
+        "Airport transfers booked through the concierge were cheaper than the taxi rank."
+      ]
+    },
+    "restaurant": {
+      "aspects": {
+        "food": {
+          "label": "Food quality",
+          "keywords": [
+            "food",
+            "dish",
+            "flavor",
+            "flavour",
+            "cooked",
+            "fresh",
+            "seasoning",
+            "delicious",
+            "tasty",
+            "ingredients"
+          ],
+          "positive": [
+            "The food at {place} was outstanding from start to finish.",
+            "The {dish} was the most delicious thing I ate in {city}, full stop.",
+            "Every dish came out beautifully cooked and full of flavor.",
+            "You can taste how fresh the ingredients are.",
+            "Simple, honest food done perfectly at {place}.",
+            "{companion} ordered the {dish} and it was so tasty I kept stealing bites.",
+            "Seasoning was spot on: bold without being overpowering.",
+            "Food so good we booked again before we'd even paid.",
+            "Delicious, generous and clearly made with care in the kitchen at {place}."
+          ],
+          "neutral": [
+            "The food at {place} was good but not quite as memorable as the reviews suggested.",
+            "Some dishes were excellent, others a bit bland.",
+            "The {dish} is worth ordering, but the other dishes were hit and miss.",
+            "Tasty enough, though nothing we couldn't make at home.",
+            "Fresh ingredients, slightly under-seasoned for my taste."
+          ],
+          "negative": [
+            "The food at {place} was disappointingly bland.",
+            "My steak was overcooked and the sides were cold.",
+            "The {dish} tasted reheated and lacked any real flavor.",
+            "Nothing on the plate tasted fresh.",
+            "Way too much salt in every dish we ordered.",
+            "Greasy, heavy food at {place} that sat in my stomach all evening.",
+            "For somewhere with this reputation, the flavours at {place} were surprisingly flat."
+          ]
+        },
+        "service": {
+          "label": "Service",
+          "keywords": [
+            "service",
+            "waiter",
+            "waitress",
+            "server",
+            "attentive",
+            "staff",
+            "host",
+            "sommelier",
+            "friendly",
+            "team"
+          ],
+          "positive": [
+            "Service at {place} was warm, attentive and never intrusive.",
+            "Our waiter, {staff}, guided us through the menu like an old friend.",
+            "The sommelier found us a fantastic bottle well under our budget.",
+            "Staff remembered us from the night before and saved our favorite table.",
+            "The staff at {place} were friendly, fast and genuinely happy to help.",
+            "The host squeezed us in without a reservation and couldn't have been nicer.",
+            "Attentive service: our glasses never went empty, but we never felt hovered over.",
+            "We mentioned a nut allergy for {companion} and the server double-checked every dish with the kitchen.",
+            "The whole team clearly loves working at {place}."
+          ],
+          "neutral": [
+            "Service was friendly but a little slow once it got busy.",
+            "Our waitress was lovely, though she forgot our side dishes.",
+            "Staff at {place} were efficient, if not especially chatty.",
+            "Good service at the start, then they were hard to catch when we wanted the bill.",
+            "The waiter was knowledgeable but a bit rushed."
+          ],
+          "negative": [
+            "Service at {place} was painfully slow and nobody apologized.",
+            "Our server rolled his eyes when we asked about vegetarian options.",
+            "Staff ignored us for twenty minutes after we sat down.",
+            "The host was rude and seated us next to the kitchen door despite empty tables.",
+            "We had to flag down a waiter three times just to order.",
+            "Not a single smile from the staff at {place} all evening.",
+            "{place} gave us the worst service of our trip, sadly."
+          ]
+        },
+        "ambience": {
+          "label": "Ambience",
+          "keywords": [
+            "ambience",
+            "atmosphere",
+            "decor",
+            "vibe",
+            "lighting",
+            "cozy",
+            "romantic",
+            "interior",
+            "terrace",
+            "candle"
+          ],
+          "positive": [
+            "Such a cozy spot, with candlelight and old wooden tables.",
+            "The atmosphere at {place} is buzzy without being overwhelming.",
+            "Perfect romantic dinner spot, with dim lighting and soft jazz.",
+            "The terrace at {place} is gorgeous on a warm {month} evening.",
+            "Beautiful interior, like eating in someone's elegant living room.",
+            "Great vibe at {place}, full of locals rather than tourists.",
+            "Loved the decor: tiled floors, hanging plants and vintage posters.",
+            "{companion} said it was the most charming atmosphere of the whole trip.",
+            "The ambience at {place} made the whole evening feel special."
+          ],
+          "neutral": [
+            "The decor at {place} is simple; the focus is clearly on the food.",
+            "Nice atmosphere, although the lighting was a bit too bright.",
+            "The terrace is lovely but faces a fairly busy street.",
+            "Casual vibe, fine for lunch but not for a special occasion.",
+            "The interior feels a little dated, but it's clean and comfortable."
+          ],
+          "negative": [
+            "Zero atmosphere at {place}; it felt like eating in a waiting room.",
+            "Harsh fluorescent lighting killed any sense of romance.",
+            "The interior at {place} felt cold and corporate.",
+            "Sticky tables and tired decor did not match the prices.",
+            "The vibe was more sports bar than bistro.",
+            "We were seated on the terrace right next to the bins.",
+            "Not the romantic evening we'd planned, sadly."
+          ]
+        },
+        "value": {
+          "label": "Value for money",
+          "keywords": [
+            "value",
+            "price",
+            "worth",
+            "expensive",
+            "overpriced",
+            "money",
+            "affordable",
+            "cost",
+            "reasonable",
+            "bill"
+          ],
+          "positive": [
+            "Excellent value; we ate like royalty for very little money.",
+            "For the quality, the prices at {place} are more than fair.",
+            "Affordable, generous and delicious, what more do you want?",
+            "The lunch set menu at {place} is incredible value.",
+            "Our bill for three courses and wine was lower than we expected.",
+            "Worth every cent, even as a splurge.",
+            "Reasonable prices at {place} for such a central location.",
+            "{companion} and I kept checking the bill because it seemed too low.",
+            "Honestly one of the best-value meals we had in {city}."
+          ],
+          "neutral": [
+            "A little pricey, but you're paying for the setting.",
+            "Fair value at {place}, although drinks push the bill up quickly.",
+            "Not cheap, but not overpriced for the quality either.",
+            "The tasting menu is expensive; à la carte is better value.",
+            "Cost is about what you'd expect for this neighborhood."
+          ],
+          "negative": [
+            "{place} is wildly overpriced for what was on the plate.",
+            "The bill at {place} included a service charge nobody mentioned.",
+            "{place} is not worth the money, sadly.",
+            "Expensive, and the portions made it feel even more so.",
+            "We paid fine-dining prices for canteen-quality food.",
+            "Tourist-trap pricing; you can eat much better for half the cost nearby.",
+            "Hidden cover charge, bread charge, water charge: the final bill was a shock."
+          ]
+        },
+        "wait": {
+          "label": "Wait times",
+          "keywords": [
+            "wait",
+            "reservation",
+            "booked",
+            "booking",
+            "queue",
+            "minutes",
+            "walk-in",
+            "seated",
+            "slow",
+            "hour"
+          ],
+          "positive": [
+            "We were seated within minutes at {place}, even on a Saturday night.",
+            "No reservation needed at lunchtime; we walked straight in.",
+            "Barely a wait between courses, yet we never felt rushed.",
+            "Booking online was easy and our table was ready on time.",
+            "Even though {place} was packed, we only waited ten minutes.",
+            "{place} took our walk-in party of six without blinking.",
+            "Mains came out about 15 minutes after starters, perfect timing.",
+            "The queue outside moves fast, so don't be put off.",
+            "Great pacing: we were in and out in an hour before our show."
+          ],
+          "neutral": [
+            "Expect a short queue at peak times; it moves reasonably quickly.",
+            "We waited about 30 minutes for mains, which was fine with good wine.",
+            "Reservations are essential on weekends; walk-ins are hit and miss.",
+            "The kitchen at {place} is slow, but everything is made to order.",
+            "Booked a week ahead, and you'll probably need to as well."
+          ],
+          "negative": [
+            "We waited over an hour for our food at {place} with no explanation.",
+            "Even with a reservation, we weren't seated for 40 minutes.",
+            "The queue at {place} was ridiculous and the staff did nothing to manage it.",
+            "Painfully slow kitchen: our starters arrived after the table next to us had left.",
+            "{place} lost our booking and made us wait at the bar.",
+            "We waited 25 minutes for desserts and eventually cancelled them.",
+            "Walk-in? Forget it, they turned us away with half the room empty."
+          ]
+        },
+        "drinks": {
+          "label": "Drinks",
+          "keywords": [
+            "drink",
+            "wine",
+            "cocktail",
+            "beer",
+            "coffee",
+            "bartender",
+            "espresso",
+            "glass",
+            "aperitif",
+            "lemonade"
+          ],
+          "positive": [
+            "The wine list at {place} is excellent, with plenty of local bottles by the glass.",
+            "Creative cocktails at {place}, and the bartender clearly knows what he's doing.",
+            "Best espresso I've had in a long time.",
+            "Great local beer on tap at {place}.",
+            "{companion} loved the homemade lemonade.",
+            "They poured us a complimentary aperitif while we looked at the menu.",
+            "The house wine was far better than it had any right to be.",
+            "Ask {staff} for a cocktail recommendation; you won't regret it.",
+            "Lovely drinks menu with good non-alcoholic options too."
+          ],
+          "neutral": [
+            "Decent wine selection at {place}, but markups are steep.",
+            "Cocktails at {place} were fine, nothing inventive.",
+            "Good coffee, but the drinks list is limited otherwise.",
+            "Beer selection is small but well chosen.",
+            "Wine by the glass was only available for two options."
+          ],
+          "negative": [
+            "The wine was served warm and the glasses were smeared.",
+            "Our cocktails at {place} were watery and overpriced.",
+            "The coffee tasted like it had been sitting around for hours.",
+            "{place} charged a fortune for a very ordinary bottle of wine.",
+            "The bartender was more interested in his phone than making drinks.",
+            "Flat beer, twice.",
+            "No drinks menu, and the prices were only revealed on the bill."
+          ]
+        },
+        "dessert": {
+          "label": "Dessert",
+          "keywords": [
+            "dessert",
+            "cake",
+            "ice cream",
+            "sweet",
+            "pastry",
+            "chocolate",
+            "gelato",
+            "sorbet",
+            "pudding",
+            "crème brûlée"
+          ],
+          "positive": [
+            "Save room for dessert at {place}, seriously.",
+            "The chocolate cake at {place} is worth the trip on its own.",
+            "Homemade gelato that {companion} still can't stop talking about.",
+            "The crème brûlée had the perfect crackly top.",
+            "A light lemon sorbet was exactly what we needed after a big meal.",
+            "The pastry chef at {place} deserves a raise.",
+            "Sticky toffee pudding done better than I've had at home.",
+            "Even the complimentary sweet treats with the bill were lovely.",
+            "We ordered a second dessert to share, no regrets."
+          ],
+          "neutral": [
+            "Desserts were pretty, but a little too sweet for me.",
+            "Limited dessert choices at {place}, though the ice cream was nice.",
+            "The chocolate mousse was fine, nothing special.",
+            "Cake of the day was a bit dry, but the cream helped.",
+            "Decent desserts, but next time we'd skip them and go for gelato nearby."
+          ],
+          "negative": [
+            "The dessert was clearly store-bought and defrosted.",
+            "The chocolate fondant at {place} arrived overcooked with no molten center at all.",
+            "The ice cream had ice crystals, like it had been in the freezer for months.",
+            "{place} charges a fortune for a tiny slice of cake.",
+            "Only one dessert option at {place}, and it was sold out.",
+            "The pastry was soggy and the cream tasted off.",
+            "Sickly sweet crème brûlée with a burnt top."
+          ]
+        },
+        "portions": {
+          "label": "Portion sizes",
+          "keywords": [
+            "portion",
+            "generous",
+            "filling",
+            "plate",
+            "hungry",
+            "sharing",
+            "leftovers",
+            "stuffed",
+            "tiny",
+            "big enough"
+          ],
+          "positive": [
+            "Generous portions; we could have shared a main and still been satisfied.",
+            "Huge plates of food at {place}, so come hungry!",
+            "We left {place} completely stuffed and happy.",
+            "Portion sizes at {place} are perfect for sharing.",
+            "Took leftovers home and had them for lunch the next day.",
+            "Filling and satisfying without being heavy.",
+            "The {dish} portion was so big that {companion} couldn't finish it.",
+            "Small plates that weren't actually that small.",
+            "Good-sized portions for the price."
+          ],
+          "neutral": [
+            "Portions at {place} are on the small side, but it's a tasting-style menu.",
+            "At {place} the mains were filling, the starters tiny.",
+            "Big enough for lunch, though we added a side at dinner.",
+            "Sharing plates are the way to go; single dishes can feel small.",
+            "Reasonable portion sizes: you won't leave hungry, but you won't be stuffed either."
+          ],
+          "negative": [
+            "Tiny portions for the price; we grabbed street food afterwards.",
+            "Three bites and the plate was empty.",
+            "Still hungry after two courses at {place}.",
+            "The portion of {dish} was laughably small.",
+            "Pretty presentation at {place}, but not remotely filling.",
+            "The sharing platter for two would barely feed one.",
+            "The kids' portions were almost the same price as the adult ones and half the size."
+          ]
+        },
+        "menu": {
+          "label": "Menu & dietary options",
+          "keywords": [
+            "menu",
+            "vegetarian",
+            "vegan",
+            "gluten-free",
+            "options",
+            "allergy",
+            "choice",
+            "dietary",
+            "variety",
+            "specials"
+          ],
+          "positive": [
+            "Great menu at {place} with loads of vegetarian options that aren't an afterthought.",
+            "{place} handled my gluten-free needs perfectly.",
+            "Wonderful variety; we could have eaten here every night.",
+            "The daily specials are where the kitchen at {place} really shines.",
+            "Clearly labeled dietary info for every dish, which made life easy.",
+            "Eating vegan, {companion} had more choice here than anywhere else in {city}.",
+            "Short menu at {place}, but every choice was a winner.",
+            "The kitchen took my allergy seriously and adapted dishes without fuss.",
+            "A seasonal menu that changes weekly, so we came back twice."
+          ],
+          "neutral": [
+            "The menu is small, which is fine if you like what's on it.",
+            "Vegetarian options at {place} are limited to two mains.",
+            "Plenty of choice, though the English menu doesn't explain much.",
+            "Specials sell out early, so go before 8pm.",
+            "Gluten-free is possible, but you'll need to ask."
+          ],
+          "negative": [
+            "Almost nothing on the menu for vegetarians.",
+            "They couldn't tell me which dishes contained nuts, which is worrying with an allergy.",
+            "Very little variety; it's basically the same dish five ways.",
+            "The online menu at {place} was completely different from the real one.",
+            "Half the options at {place} were unavailable the night we went.",
+            "No vegan options at all, not even a side salad without cheese.",
+            "Dietary requests were met with sighs and eye rolls."
+          ]
+        },
+        "noise": {
+          "label": "Noise level",
+          "keywords": [
+            "noise",
+            "noisy",
+            "loud",
+            "quiet",
+            "music",
+            "conversation",
+            "acoustics",
+            "shout",
+            "echo",
+            "hear each other"
+          ],
+          "positive": [
+            "Quiet enough to actually have a conversation, which is rare these days.",
+            "Soft background music and a relaxed, calm dining room at {place}.",
+            "{place} is lively but never too loud.",
+            "Good acoustics at {place}, even when every table was full.",
+            "A peaceful, quiet corner away from the busy streets.",
+            "We could hear each other perfectly, bliss after a day in the crowds.",
+            "The live music was a lovely touch and kept at a sensible volume.",
+            "Low noise levels made it perfect for a business dinner.",
+            "Even with a big group at the next table, it stayed pleasantly quiet."
+          ],
+          "neutral": [
+            "{place} gets noisy after 9pm, so book early if you want a calm dinner.",
+            "The music was a bit loud for my taste, but others seemed to enjoy it.",
+            "Hard floors mean some echo when it's full.",
+            "Lively rather than quiet, which suited our group.",
+            "Conversation is easier if you sit on the terrace."
+          ],
+          "negative": [
+            "{place} was so loud we had to shout across a small table.",
+            "The music at {place} was deafening.",
+            "Terrible acoustics: every clatter from the kitchen echoed around the room.",
+            "A noisy party next to us ruined any chance of conversation.",
+            "We couldn't hear each other at all.",
+            "Blaring TVs and loud music, not what you want at dinner.",
+            "{place} is far too noisy for a romantic evening."
+          ]
+        }
+      },
+      "openers": {
+        "positive": [
+          "We stumbled into {place} on our first night in {city} and ended up coming back twice.",
+          "Wow, just wow.",
+          "Came here with {companion} for a birthday dinner and it was perfect.",
+          "A local recommended {place}, and they were absolutely right.",
+          "Booked this after reading the reviews, and it lived up to the hype.",
+          "Dinner at {place} was one of those meals you think about for weeks afterwards.",
+          "{place} was our favorite restaurant of the whole trip.",
+          "Found {place} tucked away in {neighborhood}, and what a find it was.",
+          "Lunch here turned into a three-hour affair, in the best way.",
+          "I've eaten a lot of meals in {city}, and this was the best.",
+          "Popped in for a quick bite after visiting {nearby} and stayed all evening.",
+          "Our go-to spot for the week."
+        ],
+        "mixed": [
+          "We had dinner at {place} on a Thursday in {month}, and it was fine overall.",
+          "Some real highs and a few lows here.",
+          "I wanted to love {place} as much as everyone else seems to.",
+          "Good, but I'm not sure it deserves all the hype.",
+          "Stopped in after visiting {nearby} because it was convenient.",
+          "A pleasant meal, with a couple of hiccups.",
+          "Solid neighborhood spot, if not quite a destination.",
+          "Mixed feelings about this one."
+        ],
+        "negative": [
+          "Sadly, {place} was a big letdown.",
+          "We had high hopes, but this was the worst meal of our trip.",
+          "Don't be fooled by the busy terrace.",
+          "I'm writing this so others can avoid our mistake.",
+          "Chose {place} because of its reputation, and left wondering why it has one.",
+          "What should have been a special dinner went wrong from the start.",
+          "Tourist trap, plain and simple.",
+          "We walked out of {place} hungry and annoyed."
+        ]
+      },
+      "closers": {
+        "positive": [
+          "We'll be back to {place} next time we're in {city}.",
+          "Book ahead; you won't regret it.",
+          "Can't recommend {place} enough.",
+          "Already dreaming about our next meal here.",
+          "Just go, trust me.",
+          "Five stars from both {companion} and me.",
+          "A must for anyone who loves good food.",
+          "Worth crossing town for.",
+          "Thank you for a wonderful evening!",
+          "If you only eat out once in {city}, make it here.",
+          "We left happy, full and already planning a return.",
+          "Don't skip dessert, and don't skip {place}."
+        ],
+        "mixed": [
+          "Worth a try if you're nearby, but I wouldn't go out of my way.",
+          "Good, not great.",
+          "Might give {place} another chance on a quieter night.",
+          "{place} is fine for a casual meal.",
+          "Three stars feels about right.",
+          "Order carefully and you'll have a nice time.",
+          "Decent, but there are better options in {neighborhood}.",
+          "Nice enough, just not memorable."
+        ],
+        "negative": [
+          "We won't be eating at {place} again.",
+          "Save your money and eat elsewhere.",
+          "Really disappointing, sorry.",
+          "There are far better restaurants in {city}.",
+          "Not recommended.",
+          "Hope {place} sorts things out, because the location is great.",
+          "One star, and that's for the bread.",
+          "Not worth your evening."
+        ]
+      },
+      "titles": {
+        "positive": [
+          "Best meal in {city}",
+          "Delicious from start to finish",
+          "A hidden gem in {neighborhood}",
+          "Worth every bite",
+          "Don't miss the {dish}",
+          "Perfect date night",
+          "Our new favorite",
+          "Fantastic food, lovely staff",
+          "Came back twice in one week",
+          "Proper local cooking",
+          "Unforgettable dinner at {place}",
+          "Great food, great vibe"
+        ],
+        "mixed": [
+          "Good food, slow service",
+          "Nice but overhyped",
+          "Decent lunch spot",
+          "Hit and miss",
+          "Great setting, average food",
+          "Fine for a quick bite",
+          "Pricey but pleasant",
+          "Some dishes better than others"
+        ],
+        "negative": [
+          "Tourist trap",
+          "Very disappointing",
+          "Overpriced and underwhelming",
+          "Not worth the wait",
+          "Bland food, rude service",
+          "Would not go back",
+          "Save your money",
+          "What a letdown"
+        ]
+      },
+      "tips": [
+        "Book a terrace table a few days ahead, especially on weekends.",
+        "Order the {dish}; it's what the kitchen does best.",
+        "The lunch set menu is much better value than dinner.",
+        "Arrive before 7pm if you don't have a reservation.",
+        "Ask about the daily specials, which aren't always on the printed menu.",
+        "Portions are big, so consider sharing a main.",
+        "Leave room for dessert.",
+        "Check the bill for a service charge before adding a tip.",
+        "Ask for a table away from the kitchen door if you want a quiet dinner.",
+        "Mention any allergies when you book, not just when you order.",
+        "The house wine is good and far cheaper than bottles from the list.",
+        "Cards are accepted, but a little cash is handy for tipping."
+      ]
+    },
+    "attraction": {
+      "aspects": {
+        "crowds": {
+          "label": "Crowds",
+          "keywords": [
+            "crowd",
+            "busy",
+            "packed",
+            "tour groups",
+            "people",
+            "quiet",
+            "elbow",
+            "peaceful",
+            "rush",
+            "empty"
+          ],
+          "positive": [
+            "We arrived at opening and had {place} almost to ourselves, no crowds at all.",
+            "{place} was surprisingly quiet for such a famous spot.",
+            "Even on a Saturday it never felt packed.",
+            "Came in {month} and it was blissfully peaceful.",
+            "The tour groups leave around 4pm, and suddenly you have room to breathe.",
+            "Plenty of space to wander; the crowd spreads out nicely across the grounds.",
+            "Late afternoon was calm and the rush had completely died down.",
+            "Only a handful of people there when we visited, which felt like a privilege.",
+            "{place} is big enough that it never feels busy, even in high season."
+          ],
+          "neutral": [
+            "{place} is busy but manageable if you avoid midday.",
+            "The main hall was packed, the side rooms much quieter.",
+            "Expect crowds around the highlights, but the rest is peaceful.",
+            "Lots of tour groups in the morning; afternoons are better.",
+            "It gets busy, but that's the price of visiting somewhere this famous."
+          ],
+          "negative": [
+            "{place} was absolutely packed; we could barely see anything.",
+            "Shoulder to shoulder with other people the whole time.",
+            "Constant elbowing to get near the main sights at {place}.",
+            "Tour groups blocked every doorway and staircase at {place}.",
+            "Far too busy to enjoy; it felt more like a theme park.",
+            "The crowds made it impossible to stop and actually look at anything.",
+            "We visited during the lunchtime rush, which was a big mistake."
+          ]
+        },
+        "views": {
+          "label": "Views",
+          "keywords": [
+            "view",
+            "panorama",
+            "lookout",
+            "vista",
+            "skyline",
+            "sunset",
+            "overlook",
+            "terrace",
+            "scenery",
+            "horizon"
+          ],
+          "positive": [
+            "The view from the top of {place} is absolutely unreal.",
+            "Stunning panorama over the whole of {city}.",
+            "We timed our visit to {place} for sunset and it was pure magic.",
+            "The lookout platform is worth every step of the climb.",
+            "You can see all the way to the horizon on a clear day.",
+            "{companion} said it was the best skyline view we'd had all trip.",
+            "The terrace café has a vista you won't forget.",
+            "Gorgeous scenery everywhere you look at {place}.",
+            "Even on a hazy day, the view of {nearby} was spectacular."
+          ],
+          "neutral": [
+            "Nice views, though railings and netting get in the way of photos.",
+            "The view from {place} is great, but you can get a similar one for free nearby.",
+            "Cloudy on our visit, so the panorama was a bit limited.",
+            "The overlook is pretty, but it's more of a quick stop than a highlight.",
+            "Scenery is lovely, though construction cranes spoil the skyline a bit."
+          ],
+          "negative": [
+            "The famous view at {place} was completely blocked by scaffolding.",
+            "The lookout at {place} is so crowded you can't get near the edge.",
+            "Fog rolled in and the view vanished, with no refund offered.",
+            "Honestly, the skyline from our hotel roof was better than from {place}.",
+            "The terrace was closed, so no views for us.",
+            "Grimy glass panels made the panorama look murky.",
+            "We queued an hour for a sunset that was hidden behind a building."
+          ]
+        },
+        "history": {
+          "label": "History & information",
+          "keywords": [
+            "history",
+            "historical",
+            "audio guide",
+            "guide",
+            "information",
+            "signage",
+            "exhibit",
+            "plaque",
+            "stories",
+            "context"
+          ],
+          "positive": [
+            "The audio guide at {place} was excellent, full of fascinating stories.",
+            "Our guide, {staff}, brought the history to life.",
+            "Loved learning about the history of {city} through the exhibits at {place}.",
+            "Clear signage in several languages throughout {place}.",
+            "Every room at {place} has an information panel that's actually interesting to read.",
+            "The historical context really helped us appreciate what we were seeing.",
+            "As history buffs, {companion} and I were in heaven.",
+            "Beautifully curated exhibits with just the right amount of detail.",
+            "The free guided tour was the best part of our visit."
+          ],
+          "neutral": [
+            "Interesting history, but the information panels are text-heavy.",
+            "The audio guide is useful but costs extra.",
+            "Signage is mostly in the local language, so download the app beforehand.",
+            "Some exhibits at {place} were closed for renovation.",
+            "Good plaques, but I'd have loved more stories about the people who lived here."
+          ],
+          "negative": [
+            "{place} offers almost no information about what you're looking at.",
+            "The audio guide at {place} was dry, outdated and hard to follow.",
+            "Signage was confusing and we kept getting lost.",
+            "Our guide rushed through the history in ten minutes.",
+            "Without context, it's just a lot of old stones.",
+            "Several exhibits had broken screens and missing labels.",
+            "The historical displays haven't been updated in decades."
+          ]
+        },
+        "value": {
+          "label": "Value for money",
+          "keywords": [
+            "value",
+            "ticket",
+            "price",
+            "worth",
+            "free",
+            "entry fee",
+            "expensive",
+            "money",
+            "admission",
+            "overpriced"
+          ],
+          "positive": [
+            "{place} is completely free to enter and absolutely worth a visit.",
+            "Great value; the combo ticket covers three sites.",
+            "Admission to {place} is modest considering how much there is to see.",
+            "Worth every penny of the entry fee.",
+            "We spent a whole day at {place} for the price of a coffee and cake.",
+            "Kids go in free, which made it great value for our family.",
+            "Honestly, it would be worth double the ticket price.",
+            "The city pass covered admission, so it felt like a bonus.",
+            "One of the best-value things we did in {city}."
+          ],
+          "neutral": [
+            "A bit expensive, but it's a once-in-a-lifetime kind of visit.",
+            "The ticket price is fair, though extras like the tower cost more.",
+            "Worth it if you have a pass; otherwise, maybe skip.",
+            "Entry fee is reasonable, but the audio guide adds up.",
+            "Decent value for a couple of hours at {place}."
+          ],
+          "negative": [
+            "Overpriced for what you actually get to see.",
+            "The admission price at {place} has doubled and the experience hasn't improved.",
+            "{place} is not worth the money; you can see most of it from outside.",
+            "Expensive tickets, and then extra charges for every section.",
+            "Paid the full entry fee and half the rooms were closed.",
+            "{place} costs a lot of money for a very short visit.",
+            "Free for locals, eye-wateringly expensive for everyone else."
+          ]
+        },
+        "accessibility": {
+          "label": "Accessibility",
+          "keywords": [
+            "accessible",
+            "wheelchair",
+            "stairs",
+            "steps",
+            "stroller",
+            "elevator",
+            "lift",
+            "ramp",
+            "mobility",
+            "uneven"
+          ],
+          "positive": [
+            "{place} is fully accessible, with ramps and lifts throughout.",
+            "My mother uses a wheelchair and the staff were brilliant with her.",
+            "{place} has an elevator to every level, which made a huge difference.",
+            "Easy to get around with a stroller.",
+            "Smooth paths and plenty of seating for anyone with limited mobility.",
+            "Very accessible for older visitors, with seating in every room.",
+            "They lent us a wheelchair for free at the entrance.",
+            "No steps at all on the route up to the viewing platform.",
+            "We visited with {companion} and a folding wheelchair, and the gentle ramps made {place} easy to manage."
+          ],
+          "neutral": [
+            "{place} is mostly accessible, but the upper floor is stairs only.",
+            "The paths are uneven in places, so wear good shoes.",
+            "There's a lift, but it's small and often has a queue.",
+            "Strollers are allowed, though you'll need to fold yours for the tower.",
+            "Wheelchair access exists, but it's via a side entrance you need to ask about."
+          ],
+          "negative": [
+            "Endless stairs at {place} and no elevator in sight.",
+            "Not suitable for anyone with mobility issues.",
+            "The ramp was blocked by a souvenir stall, and staff didn't seem to care.",
+            "Cobbled, uneven ground everywhere at {place}, a nightmare with a wheelchair.",
+            "The only lift was out of order during our visit.",
+            "We had to leave {companion} at the bottom because of all the steps.",
+            "It claims to be accessible, but half the site is off-limits."
+          ]
+        },
+        "timing": {
+          "label": "Time needed & opening hours",
+          "keywords": [
+            "opening hours",
+            "opens",
+            "closing",
+            "closed",
+            "allow",
+            "hours",
+            "spent",
+            "arrive early",
+            "late afternoon",
+            "time slot"
+          ],
+          "positive": [
+            "We spent about three hours at {place} and could easily have stayed longer.",
+            "Long opening hours meant we could visit after dinner.",
+            "Allow at least half a day for {place}; there's so much to see.",
+            "Arrive early and you'll have the best light and the fewest people.",
+            "Our late afternoon visit was perfect: golden light and cool air.",
+            "Our time slot was honored exactly, no waiting around.",
+            "Two hours at {place} was just right for us.",
+            "It opens early, which let us fit it in before our train.",
+            "Evening opening hours on Fridays are a great way to spend a night in {city}."
+          ],
+          "neutral": [
+            "You can see the highlights quickly, but allow more time if you like detail.",
+            "Closing time is earlier than listed online, so check before you go.",
+            "{place} is closed on Mondays, which caught us out.",
+            "We spent 90 minutes at {place}, which felt about right.",
+            "Last entry is an hour before closing, so don't cut it fine."
+          ],
+          "negative": [
+            "{place} closed without warning an hour early.",
+            "The posted opening hours were wrong and we waited outside for nothing.",
+            "We only had 45 minutes before closing and felt rushed the whole time.",
+            "Our time slot was ignored and we queued anyway.",
+            "Honestly, you could see everything in 20 minutes; we spent longer getting there.",
+            "Half the site is closed after 3pm, which nobody mentioned.",
+            "{place} opens late, and by then the queue is enormous."
+          ]
+        },
+        "facilities": {
+          "label": "Facilities (toilets, café, shop)",
+          "keywords": [
+            "toilet",
+            "restroom",
+            "cafe",
+            "café",
+            "gift shop",
+            "shop",
+            "lockers",
+            "water fountain",
+            "benches",
+            "facilities"
+          ],
+          "positive": [
+            "Clean toilets and a lovely café with great cakes.",
+            "The gift shop at {place} has genuinely nice things, not just tacky souvenirs.",
+            "Free lockers for bags at {place}, which was a relief.",
+            "Excellent facilities for a site the size of {place}.",
+            "Plenty of benches in the shade, perfect for a rest.",
+            "Refillable water fountains everywhere, great on a hot day.",
+            "The café terrace was a perfect lunch stop.",
+            "{companion} found some lovely prints in the shop.",
+            "Restrooms were spotless, which is not a given at big attractions."
+          ],
+          "neutral": [
+            "Only one set of toilets, so plan accordingly.",
+            "The cafe is fine but overpriced.",
+            "Small gift shop, mostly postcards and magnets.",
+            "Lockers are available, but you need coins.",
+            "Basic facilities at {place}, nothing more."
+          ],
+          "negative": [
+            "The toilets at {place} were filthy and out of paper.",
+            "No café or water anywhere on site, so bring your own.",
+            "The only restroom at {place} had a 20-minute queue.",
+            "Gift shop prices at {place} are outrageous.",
+            "Nowhere to sit, and no benches anywhere in sight.",
+            "No lockers, and they wouldn't let us in with our backpacks.",
+            "Facilities are badly outdated and not enough for the number of visitors."
+          ]
+        },
+        "photos": {
+          "label": "Photo opportunities",
+          "keywords": [
+            "photo",
+            "picture",
+            "camera",
+            "shot",
+            "selfie",
+            "tripod",
+            "photogenic",
+            "lens",
+            "angle",
+            "golden hour"
+          ],
+          "positive": [
+            "Every corner of {place} is a photo waiting to happen.",
+            "Bring a wide lens; you'll want to capture everything.",
+            "Got some of our best shots of the trip here.",
+            "Go to {place} at golden hour; the light is incredible.",
+            "{place} is incredibly photogenic, even with just a phone camera.",
+            "{companion} spent an hour just taking pictures.",
+            "Found a great angle of {nearby} from the upper terrace.",
+            "Our family picture from the top is now framed at home.",
+            "Photography is allowed everywhere, which isn't always the case."
+          ],
+          "neutral": [
+            "{place} is nice for photos, but you'll be dodging other people's selfie sticks.",
+            "No tripods allowed, which limited our evening shots.",
+            "Hard to get a clean picture without crowds in the frame.",
+            "The lighting inside isn't great for phone cameras.",
+            "Some rooms ban photos, others don't; the rules are a bit confusing."
+          ],
+          "negative": [
+            "Photos are banned inside {place}, which was a real shame.",
+            "Security made us delete a picture of the ceiling, of all things.",
+            "Impossible to get a shot of {place} without scaffolding in it.",
+            "Staff charged extra for using a camera, which felt petty.",
+            "Selfie-stick crowds made every photo a battle.",
+            "The famous angle of {place} is now blocked by a fence.",
+            "Dirty windows ruined any chance of a decent photo."
+          ]
+        },
+        "kids": {
+          "label": "Family-friendliness",
+          "keywords": [
+            "kids",
+            "children",
+            "family",
+            "families",
+            "child",
+            "toddler",
+            "stroller",
+            "teenagers",
+            "playground",
+            "little ones"
+          ],
+          "positive": [
+            "The kids absolutely loved {place}.",
+            "{place} is great for families, with interactive displays and a small playground.",
+            "Our toddler was entertained the whole time at {place}.",
+            "There's a children's trail with stickers at each stop, which is a genius idea.",
+            "Even our teenagers put their phones away for a while.",
+            "Family tickets make it very affordable.",
+            "The little ones loved feeding the ducks by the entrance.",
+            "Staff were so patient with our excitable kids.",
+            "A perfect day out for the whole family in {city}."
+          ],
+          "neutral": [
+            "{place} is fine for older kids, but little ones may get bored.",
+            "Not much at {place} is aimed at children, though the gardens help.",
+            "Family-friendly overall, though some exhibits are a bit grim for young children.",
+            "Doable with a stroller; just avoid the upper floors.",
+            "Teenagers might enjoy it more than younger kids."
+          ],
+          "negative": [
+            "Not suitable for young kids at all, very hands-off.",
+            "Our children were bored within ten minutes at {place}.",
+            "No baby changing facilities, which made it hard with a toddler.",
+            "Staff shushed our kids constantly even though they weren't being loud.",
+            "Strollers aren't allowed, which nobody tells you until you arrive.",
+            "The family ticket isn't available at weekends, which is exactly when families visit.",
+            "The playground mentioned online at {place} doesn't exist anymore."
+          ]
+        },
+        "queue": {
+          "label": "Queues & tickets",
+          "keywords": [
+            "queue",
+            "line",
+            "skip-the-line",
+            "waited",
+            "wait",
+            "ticket",
+            "booked",
+            "online",
+            "timed entry",
+            "security check"
+          ],
+          "positive": [
+            "We booked online and walked straight in.",
+            "The skip-the-line ticket was worth every cent.",
+            "No queue at all when we arrived at opening time.",
+            "Timed entry at {place} kept things moving smoothly.",
+            "The line at {place} looked long but moved quickly.",
+            "The security check at {place} took just a couple of minutes.",
+            "Barely had to wait, even in high season.",
+            "Buying our ticket at the machine saved us from the main queue.",
+            "{companion} booked us a morning slot and we breezed past the line."
+          ],
+          "neutral": [
+            "We waited about 30 minutes, not terrible but not ideal.",
+            "Online tickets sell out fast, so book a few days ahead.",
+            "The queue for the security check at {place} is the slow part.",
+            "Skip-the-line helps, but you still wait at the entrance.",
+            "Lines were long in the morning and shorter after lunch."
+          ],
+          "negative": [
+            "We waited nearly two hours in the sun to get into {place}.",
+            "Even with a timed entry ticket, we queued for 45 minutes.",
+            "The queue at {place} stretched around the block.",
+            "Online booking kept crashing, so we had to join the ticket line.",
+            "Skip-the-line tickets are pointless here; there's a separate queue for those too.",
+            "The security check was chaotic and painfully slow.",
+            "We gave up on {place} after an hour's wait and never got in."
+          ]
+        }
+      },
+      "openers": {
+        "positive": [
+          "Visited {place} on our second day in {city} and it was the highlight of the trip.",
+          "An absolute must-see.",
+          "Took {companion} here for the first time and it blew us away.",
+          "I've been to {place} three times now, and it still amazes me.",
+          "Even if you're not usually into sightseeing, go.",
+          "{place} is worth all the hype, and then some.",
+          "We almost skipped {place} to save time, and I'm so glad we didn't.",
+          "One of those places that photos simply can't do justice.",
+          "Went in {month} and had the most wonderful morning.",
+          "Easily the best thing we did in {city}.",
+          "Combined this with a visit to {nearby} for a perfect day.",
+          "What a special place."
+        ],
+        "mixed": [
+          "{place} is worth seeing, but go in with realistic expectations.",
+          "Glad we went, but I wouldn't rush back.",
+          "Interesting, if a little overrated.",
+          "We spent a couple of hours at {place} in {month}.",
+          "It's one of those places you feel you should see.",
+          "A nice stop, though not the highlight some claim.",
+          "Parts of it were impressive; others felt tired.",
+          "Good, with a few frustrations."
+        ],
+        "negative": [
+          "Honestly, {place} was a disappointment.",
+          "Not worth the time on a short trip to {city}.",
+          "I don't understand the hype at all.",
+          "We left {place} after 30 minutes.",
+          "Tourist trap, and not a very good one.",
+          "Our visit was frustrating from start to finish.",
+          "Skip it and spend the time at {nearby} instead.",
+          "Expected so much more from {place}."
+        ]
+      },
+      "closers": {
+        "positive": [
+          "Don't miss {place} if you're in {city}.",
+          "A must-see, full stop.",
+          "We'd happily go back.",
+          "Highly recommended for first-time visitors.",
+          "Worth planning your day around.",
+          "{place} is easily a five-star experience.",
+          "Go, you won't regret it.",
+          "The highlight of our trip, no question.",
+          "We're already planning to bring the rest of the family.",
+          "{place} is absolutely worth your time.",
+          "Unforgettable.",
+          "Put it at the top of your list."
+        ],
+        "mixed": [
+          "Worth a quick visit if you're nearby.",
+          "Fine for an hour or so.",
+          "Go early or not at all.",
+          "Glad we saw {place}, but once is enough.",
+          "Good, not essential.",
+          "{place} is probably better in the off-season.",
+          "Worth it with a pass, maybe not without.",
+          "Decent, if you manage your expectations."
+        ],
+        "negative": [
+          "Save your time and money.",
+          "Not worth it, in our opinion.",
+          "There are much better things to do in {city}.",
+          "We won't be going back to {place}.",
+          "Skip it.",
+          "{place} really needs better management.",
+          "Disappointing overall.",
+          "Admire it from the outside and move on."
+        ]
+      },
+      "titles": {
+        "positive": [
+          "Unmissable",
+          "Highlight of our trip to {city}",
+          "Breathtaking",
+          "Worth every minute",
+          "Go early, it's magical",
+          "A must-see in {city}",
+          "Even better than expected",
+          "Stunning views, fascinating history",
+          "Perfect family day out",
+          "Don't skip {place}",
+          "Pure magic at sunset",
+          "Wow"
+        ],
+        "mixed": [
+          "Worth seeing once",
+          "Good but crowded",
+          "Lovely, but pricey",
+          "Interesting, not essential",
+          "Go early or skip it",
+          "Beautiful but busy",
+          "Some parts better than others",
+          "OK for an hour"
+        ],
+        "negative": [
+          "Overhyped tourist magnet",
+          "Not worth the queue",
+          "Overrated",
+          "A real letdown",
+          "Not worth the ticket",
+          "Too crowded to enjoy",
+          "Poorly managed",
+          "Skip it"
+        ]
+      },
+      "tips": [
+        "Book tickets online in advance to skip the main queue.",
+        "Arrive right at opening or in the last two hours for fewer crowds.",
+        "Wear comfortable shoes; there's a lot more walking than you'd think.",
+        "The audio guide is worth the small extra cost.",
+        "Bring water, especially in summer, as the café gets very busy.",
+        "Check the opening hours before you go, as they change seasonally.",
+        "Head straight to the far end first and work backwards against the crowd.",
+        "Visit on a weekday if you can; weekends are packed with locals and tourists alike.",
+        "The best photos are from the far side at golden hour.",
+        "Combine it with {nearby}, which is only a short walk away.",
+        "Leave big bags at your hotel; lockers are limited.",
+        "Ask about free or reduced entry days, which some sites offer once a month."
+      ]
+    },
+    "experience": {
+      "aspects": {
+        "guide": {
+          "label": "Guide",
+          "keywords": [
+            "guide",
+            "knowledgeable",
+            "funny",
+            "storyteller",
+            "host",
+            "passionate",
+            "english",
+            "explained",
+            "stories",
+            "instructor"
+          ],
+          "positive": [
+            "Our guide {staff} was knowledgeable, funny and clearly loved the job.",
+            "{staff} is a born storyteller; we hung on every word.",
+            "{place} gave us the best guide we've ever had, anywhere in the world.",
+            "Passionate about {city}, and it showed in every story.",
+            "Our host made everyone feel like old friends by the end.",
+            "The instructor was patient with {companion}, who had never tried anything like this before.",
+            "Perfect English and a great sense of humor.",
+            "Everything on {place} was explained clearly, with lots of local insight.",
+            "{staff} from {place} shared stories you'd never find in a guidebook."
+          ],
+          "neutral": [
+            "The guide on {place} knew a lot but talked a little too fast.",
+            "Nice host, though some of the jokes fell flat.",
+            "Knowledgeable, but the stories felt a bit scripted.",
+            "Our instructor was friendly, if a bit distracted at times.",
+            "The English commentary was fine, though occasionally hard to follow."
+          ],
+          "negative": [
+            "Our guide seemed bored and read everything from a phone.",
+            "The host of {place} spent more time on his phone than with the group.",
+            "Hardly anything was explained; we could have done it on our own.",
+            "The instructor at {place} was impatient with beginners.",
+            "The guide's English was very limited, which made {place} hard to follow.",
+            "The stories were full of mistakes; even I spotted a couple.",
+            "The guide disappeared for 20 minutes in the middle of the tour."
+          ]
+        },
+        "organization": {
+          "label": "Organization",
+          "keywords": [
+            "organized",
+            "organised",
+            "communication",
+            "email",
+            "schedule",
+            "booking",
+            "confirmation",
+            "smooth",
+            "logistics",
+            "well run"
+          ],
+          "positive": [
+            "Everything about {place} was well organized, from booking to goodbye.",
+            "Clear communication before the day, including a reminder message.",
+            "The schedule for {place} ran like clockwork.",
+            "Booking {place} was quick and the confirmation came through instantly.",
+            "Logistics were handled so well that we didn't have to think about anything.",
+            "A really smooth operation, clearly well run.",
+            "They sent an email with photos and restaurant tips after the tour.",
+            "Impressively organised for such a big day out.",
+            "Even {companion} admitted it was impressively organized."
+          ],
+          "neutral": [
+            "{place} was generally well organized, though we started 15 minutes late.",
+            "Communication was fine, but the meeting instructions could be clearer.",
+            "The schedule was a bit ambitious for the time available.",
+            "Booking was easy, but the confirmation email went to spam.",
+            "Logistics were okay once everyone found each other."
+          ],
+          "negative": [
+            "Chaotic from start to finish; nobody seemed to know the schedule.",
+            "No confirmation email, so we weren't sure the tour was even happening.",
+            "A booking mix-up meant half of us had to wait for the next boat.",
+            "Communication from {place} was nonexistent until the night before.",
+            "Poorly organized transfers; we sat in the van for 40 minutes.",
+            "The schedule for {place} changed three times without anyone telling us.",
+            "{place} was not a smooth experience at all."
+          ]
+        },
+        "value": {
+          "label": "Value for money",
+          "keywords": [
+            "value",
+            "price",
+            "worth",
+            "money",
+            "expensive",
+            "included",
+            "overpriced",
+            "cost",
+            "paid",
+            "bargain"
+          ],
+          "positive": [
+            "{place} is fantastic value for a full day out.",
+            "{place} was worth every cent, and more.",
+            "Everything was included, no surprise extras.",
+            "For the price, {place} is an absolute bargain.",
+            "We paid a little more than for other tours, and it was obvious why.",
+            "Money well spent; {place} was easily the best thing we booked in {city}.",
+            "Not cheap, but worth it for a special occasion.",
+            "Considering the entry fees included, this was great value.",
+            "It cost less than doing it ourselves once you add up transport and tickets."
+          ],
+          "neutral": [
+            "A bit expensive, but you're paying for a small group.",
+            "Fair value, though drinks weren't included as we'd assumed.",
+            "Worth it if you'd never attempt this on your own.",
+            "The price is similar to other operators; the experience a little better.",
+            "Decent value, though the souvenir photos cost extra."
+          ],
+          "negative": [
+            "{place} felt overpriced for what it was.",
+            "Not worth the money; we could have done it ourselves for a fraction of the cost.",
+            "Lots of hidden extras that weren't included in the advertised price.",
+            "{place} charges premium prices for a very basic tour.",
+            "We paid for a full day and got barely four hours.",
+            "{place} is expensive, especially given how rushed it felt.",
+            "The 'free' tastings turned out to cost extra."
+          ]
+        },
+        "groupSize": {
+          "label": "Group size",
+          "keywords": [
+            "group",
+            "people",
+            "participants",
+            "intimate",
+            "private",
+            "strangers",
+            "crowded",
+            "fellow",
+            "couples",
+            "just us"
+          ],
+          "positive": [
+            "Our group on {place} was just eight people, which made it feel really personal.",
+            "It ended up being a private tour, just us and {staff}.",
+            "An intimate group on {place}, so everyone got to ask questions.",
+            "Great mix of people; we swapped numbers at the end.",
+            "Never felt crowded, even at the busiest stops.",
+            "Our fellow travelers made the day even more fun.",
+            "Maximum ten participants, which is exactly how it should be.",
+            "{companion} and I joined a lovely group of couples from all over the world.",
+            "{place} keeps its groups small, and it really shows."
+          ],
+          "neutral": [
+            "The group was bigger than advertised, but it didn't spoil things.",
+            "Around twenty people on {place}, which was fine for the walking but not the tastings.",
+            "A mix of families and couples, which made the pace a compromise.",
+            "Some participants were late, which held everyone up.",
+            "It's a shared tour, so you'll be with strangers, but that's part of the fun."
+          ],
+          "negative": [
+            "The 'small group' turned out to be forty people.",
+            "{place} was far too crowded to hear anything the guide said.",
+            "We were split into two groups and ours got the short end of the stick.",
+            "Two loud participants dominated the whole tour.",
+            "Paid for a private experience at {place} but were put with strangers.",
+            "With that many people on {place}, there was no chance to ask questions.",
+            "The group was so big that we kept losing sight of the guide."
+          ]
+        },
+        "highlights": {
+          "label": "Highlights",
+          "keywords": [
+            "highlight",
+            "best part",
+            "favorite",
+            "favourite",
+            "memorable",
+            "moment",
+            "standout",
+            "unforgettable",
+            "stop",
+            "hidden gem"
+          ],
+          "positive": [
+            "The highlight of {place} was watching the sunrise from the top.",
+            "The best part was a little family-run workshop we'd never have found alone.",
+            "My favorite moment was the surprise stop at {staff}'s grandmother's house.",
+            "Every stop on {place} was memorable in its own way.",
+            "The final stop at {nearby} was unforgettable.",
+            "{companion} voted the rooftop finale the standout of the whole holiday.",
+            "It took us to a true hidden gem, a courtyard with no tourists at all.",
+            "So many memorable moments packed into one day with {place}.",
+            "Our favourite part was learning the local toast at dinner."
+          ],
+          "neutral": [
+            "The highlight was great, but the rest of {place} felt like filler.",
+            "Some stops were memorable, others felt like padding.",
+            "The best part came right at the end, which made it worth the wait.",
+            "A few standout moments, but overall fairly standard.",
+            "Nice enough stops, but no real hidden gem among them."
+          ],
+          "negative": [
+            "The advertised highlight was skipped because we ran out of time.",
+            "No memorable moments on {place}, sadly; it felt generic.",
+            "Most of the stops were shops where the guide clearly got a commission.",
+            "The best part of {place} was when it ended, honestly.",
+            "The so-called hidden gem on {place} was packed with other tour groups.",
+            "Not a single standout, just a lot of walking between things.",
+            "We missed the one stop we'd booked the tour for."
+          ]
+        },
+        "pace": {
+          "label": "Pace",
+          "keywords": [
+            "pace",
+            "rushed",
+            "hurried",
+            "leisurely",
+            "relaxed",
+            "breaks",
+            "walking",
+            "dragged",
+            "stops",
+            "breathless"
+          ],
+          "positive": [
+            "The pace of {place} was perfect, never rushed but never boring.",
+            "A relaxed, leisurely day with plenty of time at each spot.",
+            "Regular breaks for coffee and bathrooms, which we appreciated.",
+            "{staff} kept an easy walking pace so nobody fell behind.",
+            "{place} gets the pace just right for all fitness levels.",
+            "We never felt hurried on {place}, even with a packed itinerary.",
+            "A nice relaxed rhythm that let us soak everything in.",
+            "Plenty of breaks, so {companion} never got tired or grumpy.",
+            "Well-timed stops, each just long enough before we got restless."
+          ],
+          "neutral": [
+            "The pace was quick in the morning and slower after lunch.",
+            "A fair amount of walking, so be prepared.",
+            "It felt a little rushed at the end of {place}, but understandable.",
+            "Some stops dragged while others were over too quickly.",
+            "Leisurely overall, though the uphill sections left some of us breathless."
+          ],
+          "negative": [
+            "{place} was far too rushed; it felt like a race.",
+            "We were hurried through every stop without time to look around.",
+            "{place} had no breaks at all in four hours.",
+            "The walking pace on {place} was brutal for anyone over 50.",
+            "The middle section dragged on forever.",
+            "We spent the whole tour breathless, just trying to keep up.",
+            "Rushed at the start, then far too much standing around at the end."
+          ]
+        },
+        "food": {
+          "label": "Food & tastings",
+          "keywords": [
+            "tasting",
+            "snack",
+            "food",
+            "lunch",
+            "samples",
+            "wine",
+            "bite",
+            "tasted",
+            "drinks",
+            "picnic"
+          ],
+          "positive": [
+            "The tastings on {place} were generous; we didn't need dinner afterwards.",
+            "Lunch was included and was genuinely one of the best meals of our trip.",
+            "Loved the picnic by the water, simple but perfect.",
+            "{place} served so many samples that we lost count.",
+            "The wine at the last stop was a real treat.",
+            "Every bite was delicious, and {staff} explained where each dish came from.",
+            "Great snacks along the way, including fresh fruit and pastries.",
+            "{companion} tasted things they'd never have ordered, and loved them all.",
+            "The food on {place} is reason enough to book."
+          ],
+          "neutral": [
+            "The tastings were small, but there were plenty of them.",
+            "Lunch on {place} was fine, nothing memorable.",
+            "Drinks were extra, which wasn't clear when booking.",
+            "Good snacks, though vegetarian options were limited.",
+            "A tasting of three wines, pleasant but on the small side."
+          ],
+          "negative": [
+            "The 'lunch' was a sad sandwich in a plastic bag.",
+            "Tiny samples, barely a bite each.",
+            "The food tour at {place} felt more like a snack crawl.",
+            "We tasted cheap wine at a tourist shop, hardly authentic.",
+            "No drinks included on {place}, not even water.",
+            "The picnic promised in the description never happened.",
+            "Most of the food on {place} was cold and clearly prepared hours earlier."
+          ]
+        },
+        "meetingPoint": {
+          "label": "Meeting point & pickup",
+          "keywords": [
+            "meeting point",
+            "meet",
+            "pickup",
+            "pick-up",
+            "directions",
+            "starting point",
+            "find",
+            "location",
+            "umbrella",
+            "entrance"
+          ],
+          "positive": [
+            "The meeting point was easy to find, right in front of {nearby}.",
+            "Hotel pickup for {place} was right on time.",
+            "{place} sent clear directions with photos the day before.",
+            "{staff} was waiting at the meeting point with a bright yellow umbrella.",
+            "Easy to spot the group at the starting point.",
+            "Pick-up from our apartment in {neighborhood} made the morning stress-free.",
+            "Great location to meet, with a café nearby for early arrivals.",
+            "{place} sent a map pin and the exact entrance to wait at.",
+            "No trouble finding them at all."
+          ],
+          "neutral": [
+            "The meeting point is fine once you find it, but it's not well marked.",
+            "Pickup was 20 minutes late, but they did message us.",
+            "Directions were a bit vague, so we asked a local.",
+            "The starting point for {place} is a short walk from the metro.",
+            "Several tours meet at the same spot, so look for the right umbrella."
+          ],
+          "negative": [
+            "We couldn't find the meeting point for {place} and nearly missed the tour.",
+            "The pickup never showed, and nobody answered the phone.",
+            "Directions from {place} sent us to the wrong entrance.",
+            "The location on the booking was different from where they actually started.",
+            "No sign, no umbrella, no guide at the starting point.",
+            "Pick-up for {place} was an hour late, and we lost part of the day.",
+            "The meeting spot was on a busy road with nowhere to wait."
+          ]
+        },
+        "safety": {
+          "label": "Safety",
+          "keywords": [
+            "safe",
+            "safety",
+            "helmet",
+            "life jacket",
+            "briefing",
+            "careful",
+            "harness",
+            "first aid",
+            "risky",
+            "secure"
+          ],
+          "positive": [
+            "Felt completely safe the whole time.",
+            "{place} started with a thorough safety briefing before we set off.",
+            "Good-quality helmets and gear on {place}, all well maintained.",
+            "{staff} was careful to check everyone's harness twice.",
+            "Life jackets for everyone, including a small one for our daughter.",
+            "The team behind {place} clearly takes safety seriously.",
+            "Our guide carried a first aid kit and knew how to use it.",
+            "As a solo female traveler, I felt secure throughout.",
+            "The careful instructions helped {companion} relax after a nervous start."
+          ],
+          "neutral": [
+            "The safety briefing was quick, but it covered the basics.",
+            "Helmets were provided, though a couple were a bit worn.",
+            "It's a little risky for anyone unsteady on their feet.",
+            "Felt safe enough on {place}, although the boat was a bit old.",
+            "They don't insist on life jackets unless you ask."
+          ],
+          "negative": [
+            "No safety briefing at all on {place}, which was worrying.",
+            "The helmet I was given had a broken strap.",
+            "The driver on {place} took risky shortcuts on narrow roads.",
+            "Nobody at {place} checked our harness before the zipline.",
+            "Not enough life jackets for everyone on board.",
+            "The guide didn't have a first aid kit when someone twisted an ankle.",
+            "I didn't feel safe on the rickety steps down to the water."
+          ]
+        },
+        "photos": {
+          "label": "Photo opportunities",
+          "keywords": [
+            "photo",
+            "picture",
+            "camera",
+            "shots",
+            "selfie",
+            "photographer",
+            "snap",
+            "phone",
+            "memories",
+            "photogenic"
+          ],
+          "positive": [
+            "{staff} took loads of photos of us so we didn't have to.",
+            "We stopped at all the best spots for pictures.",
+            "They shared a whole album of shots with the group afterwards.",
+            "{place} even had a professional photographer along, and the results were stunning.",
+            "{place} was the most photogenic day of our entire trip.",
+            "{place} gave us plenty of time to snap away at every viewpoint.",
+            "Came home with a camera full of memories.",
+            "{companion} took the best selfie of the whole trip at the final stop.",
+            "Our guide knew exactly where to stand for the perfect picture."
+          ],
+          "neutral": [
+            "Nice photo stops, though sometimes a bit short.",
+            "The photos {place} sold at the end were overpriced.",
+            "Hard to take pictures from a moving boat.",
+            "Good for photos, but the light was flat on our overcast day.",
+            "They offer a photographer for an extra fee."
+          ],
+          "negative": [
+            "No time for photos at any of the stops on {place}.",
+            "The promised photo package from {place} never arrived.",
+            "Pushy staff kept trying to sell us pictures at the end.",
+            "Phones were banned for most of the experience, which nobody told us beforehand.",
+            "Too rushed to take any decent shots.",
+            "The camera stop was facing straight into the sun.",
+            "The souvenir photographer on {place} was more annoying than helpful."
+          ]
+        }
+      },
+      "openers": {
+        "positive": [
+          "We booked {place} on a whim and it turned out to be the best day of our trip.",
+          "What an experience!",
+          "Did this with {companion} on our last day in {city}, and it was the perfect send-off.",
+          "I've done a lot of tours, and this one stands out.",
+          "Worth every minute of the early start.",
+          "Booked {place} after a friend's recommendation, and they were spot on.",
+          "If you only book one tour in {city}, make it this one.",
+          "{place} was an absolutely brilliant day out.",
+          "Joined in {month} and had the time of our lives.",
+          "This was our second time with {place}, and it was even better.",
+          "Not normally a group tour person, but I loved this.",
+          "Such a fun way to see the city."
+        ],
+        "mixed": [
+          "We did {place} in {month}, and it was enjoyable but uneven.",
+          "{place} is a decent tour with some room for improvement.",
+          "I had mixed feelings about this one.",
+          "Good in parts, a bit flat in others.",
+          "We enjoyed it, but it didn't quite match the description.",
+          "Fine if you have a free afternoon in {city}.",
+          "Some great moments, some frustrating ones.",
+          "Not bad, not amazing."
+        ],
+        "negative": [
+          "Unfortunately, {place} was a big disappointment.",
+          "We regret booking this.",
+          "{place} was not at all what was advertised.",
+          "I rarely complain, but this experience needs a review.",
+          "This was the low point of our trip to {city}.",
+          "Booked {place} as a birthday treat for {companion}, and it was a letdown.",
+          "Our tour went wrong from the very first minute.",
+          "Save your time and your money."
+        ]
+      },
+      "closers": {
+        "positive": [
+          "Book {place}; you won't regret it.",
+          "Would do {place} again in a heartbeat.",
+          "A must for anyone visiting {city}.",
+          "Thank you, {staff}, for an unforgettable day!",
+          "Already recommended it to everyone we know.",
+          "Five stars, no question.",
+          "We'll be booking another tour with {place} next time.",
+          "Worth every cent.",
+          "The highlight of our holiday.",
+          "Go with an empty stomach and an open mind.",
+          "Perfect for first-timers and repeat visitors alike.",
+          "Can't wait to do it again."
+        ],
+        "mixed": [
+          "Worth doing if the timing works for you.",
+          "Enjoyable, but shop around first.",
+          "Good, and with a few tweaks it could be great.",
+          "Probably wouldn't do {place} again, but glad we tried it.",
+          "Three stars from us.",
+          "Fine for a first visit.",
+          "Set your expectations accordingly.",
+          "Decent, just not the highlight we'd hoped for."
+        ],
+        "negative": [
+          "Would not recommend {place}.",
+          "Look for another operator.",
+          "Not worth the money or the time.",
+          "We asked for a refund and are still waiting.",
+          "Very disappointing.",
+          "Book something else.",
+          "Hope {place} makes some changes, because the idea is good.",
+          "Avoid."
+        ]
+      },
+      "titles": {
+        "positive": [
+          "Best day of our trip",
+          "Unforgettable experience",
+          "Brilliant guide, brilliant day",
+          "Worth every cent",
+          "Must-do in {city}",
+          "So much fun",
+          "{staff} made the day",
+          "Perfectly organized",
+          "Highlight of our holiday",
+          "Loved every minute",
+          "Fantastic small-group tour",
+          "Book {place}, seriously"
+        ],
+        "mixed": [
+          "Good but rushed",
+          "Fun, but overpriced",
+          "Decent tour, average guide",
+          "Nice day out",
+          "Not quite as described",
+          "Great idea, uneven execution",
+          "Enjoyable enough",
+          "Some great moments"
+        ],
+        "negative": [
+          "Nothing like the description",
+          "Disorganized and rushed",
+          "Waste of money",
+          "Big disappointment",
+          "Avoid this operator",
+          "Group far too big",
+          "Would not book again",
+          "Tourist trap tour"
+        ]
+      },
+      "tips": [
+        "Wear comfortable shoes; there's more walking than the description suggests.",
+        "Skip breakfast if it's a food tour, because the tastings are generous.",
+        "Arrive at the meeting point ten minutes early to find the group.",
+        "Bring a refillable water bottle and sunscreen.",
+        "Book the morning slot for cooler weather and smaller groups.",
+        "Check the cancellation policy in case the weather turns.",
+        "Carry some small cash for tips and extra drinks.",
+        "Mention any dietary requirements when you book.",
+        "Bring a light jacket; it can get cold on the water in the evening.",
+        "Keep your phone charged, since they send updates by message on the day.",
+        "Ask your guide for restaurant tips at the end; they know the best spots.",
+        "Save the confirmation offline in case you don't have signal at the meeting point."
+      ]
+    }
+  },
+  "suspicious": {
+    "titles": [
+      "BEST PLACE EVER!!!",
+      "AMAZING AMAZING AMAZING",
+      "Perfect in every way!!!!!",
+      "5 STARS!!! MUST VISIT!!!",
+      "Wow wow wow!!!",
+      "Absolutely the best in the world",
+      "INCREDIBLE experience highly recommend!!!",
+      "Number one, no competition!!!",
+      "Life changing!!!!!",
+      "Best ever book now!!!",
+      "TOP TOP TOP",
+      "Nothing better anywhere!!",
+      "Must go must go must go",
+      "Excellent excellent excellent!!!",
+      "The GREATEST, trust me!!!"
+    ],
+    "bodies": [
+      "Best place ever!!! Everything was perfect and amazing. Highly recommend to everyone!!! Book now you will not regret!!!",
+      "AMAZING experience. The best of the best. 5 stars. Everyone must come here. PERFECT!!!",
+      "Very good very nice very perfect. Best in the city. Will come again and again and again!!!",
+      "I have traveled everywhere and this is the NUMBER ONE in the world. No doubt. Go now!!!",
+      "Excellent excellent excellent. Staff excellent, everything excellent. 10/10 would recommend 100 times.",
+      "Wow!!! Just wow!!! Incredible, unbelievable, fantastic, wonderful, amazing!!! Best ever!!!",
+      "This place is the best. Don't listen to the negative reviews, they are all lies. BEST EVER, book now!!!",
+      "Perfect perfect perfect. Nothing bad to say. Everything was the best. Five stars is not enough!!!",
+      "Great great great!!! Also check out my cousin's tour company, best prices in town, just ask for Tony!!!",
+      "Super mega best place!!! Everybody should go. I promise it is the best thing you will ever do in your LIFE!!!",
+      "Best service best food best everything. Highly highly highly recommend. Book now book now!!!",
+      "I cannot describe how AMAZING it was. Simply the BEST. Trust me and go, you will thank me later!!!",
+      "Five stars!!! Five stars!!! Five stars!!! Nothing more to say!!!",
+      "Very very good. Best experience. Good price good quality good everything. Recommend to all my friends and family!!!",
+      "OMG the best!!! Totally perfect, 1000% recommend, NUMBER ONE!!! Don't go anywhere else!!!",
+      "Top quality, top service, top top top!!! Best deal of the year, hurry before prices go up!!!",
+      "Everything amazing!!! Also looking for partners to earn money from home, message me for details!!! Best place ever!!!",
+      "Absolutely flawless!!! Better than all the others combined. The others are terrible, only come HERE!!!",
+      "Nice nice nice. Best of best. Perfect for everyone. Must visit!!! Must visit!!! Must visit!!!",
+      "Honestly the greatest place on EARTH!!! I have no words, only stars!!! ⭐⭐⭐⭐⭐"
+    ]
+  },
+  "foreign": [
+    {
+      "type": "hotel",
+      "lang": "fr",
+      "rating": 5,
+      "title": "Un vrai coup de cœur",
+      "text": "Séjour parfait à {place}. La chambre était impeccable, le lit très confortable et le personnel d'une gentillesse rare. Idéalement situé pour découvrir {city} à pied.",
+      "english_title": "Love at first sight",
+      "english": "A perfect stay at {place}. The room was spotless, the bed very comfortable and the staff unusually kind. Ideally located for exploring {city} on foot."
+    },
+    {
+      "type": "hotel",
+      "lang": "de",
+      "rating": 3,
+      "title": "Gute Lage, aber hellhörig",
+      "text": "Die Lage ist wirklich top, alles ist zu Fuß erreichbar. Leider sind die Wände sehr dünn und wir haben kaum geschlafen. Das Frühstück war in Ordnung, aber nichts Besonderes.",
+      "english_title": "Good location, but thin walls",
+      "english": "The location is really great; everything is within walking distance. Unfortunately the walls are very thin and we barely slept. Breakfast was okay, but nothing special."
+    },
+    {
+      "type": "hotel",
+      "lang": "ja",
+      "rating": 4,
+      "title": "清潔で快適なホテル",
+      "text": "部屋はとても清潔で、スタッフの対応も丁寧でした。駅から近くて観光にも便利です。朝食の種類がもう少し多ければ完璧でした。",
+      "english_title": "A clean and comfortable hotel",
+      "english": "The room was very clean and the staff were courteous. It's close to the station and convenient for sightseeing. If breakfast had a little more variety, it would have been perfect."
+    },
+    {
+      "type": "hotel",
+      "lang": "pt",
+      "rating": 2,
+      "title": "Não corresponde às fotos",
+      "text": "O quarto era muito mais pequeno do que parecia nas fotos e o ar condicionado não funcionava. A receção demorou horas a resolver o problema. A localização é boa, mas pelo preço esperávamos muito mais.",
+      "english_title": "Doesn't match the photos",
+      "english": "The room was much smaller than it looked in the photos and the air conditioning didn't work. Reception took hours to sort out the problem. The location is good, but for the price we expected much more."
+    },
+    {
+      "type": "hotel",
+      "lang": "ko",
+      "rating": 5,
+      "title": "최고의 숙소였어요",
+      "text": "{place}에서 정말 편안하게 지냈습니다. 직원분들이 모두 친절했고 방에서 보이는 전망이 너무 아름다웠어요. {city}에 다시 오면 꼭 여기서 묵을 거예요.",
+      "english_title": "It was the best place we stayed",
+      "english": "We had a really comfortable stay at {place}. All the staff were friendly and the view from the room was so beautiful. If we come back to {city}, we'll definitely stay here again."
+    },
+    {
+      "type": "hotel",
+      "lang": "nl",
+      "rating": 1,
+      "title": "Nooit meer",
+      "text": "Vieze badkamer, kapotte douche en een onvriendelijke receptie. We hebben twee keer om schone handdoeken gevraagd en niets gekregen. Voor deze prijs echt onacceptabel.",
+      "english_title": "Never again",
+      "english": "Dirty bathroom, broken shower and an unfriendly reception. We asked for clean towels twice and got nothing. Really unacceptable for this price."
+    },
+    {
+      "type": "restaurant",
+      "lang": "it",
+      "rating": 5,
+      "title": "Cucina da applausi",
+      "text": "Siamo stati a cena da {place} e ogni piatto era delizioso. Porzioni generose, ingredienti freschissimi e un servizio cordiale. Il tiramisù è da non perdere!",
+      "english_title": "Food worth applauding",
+      "english": "We had dinner at {place} and every dish was delicious. Generous portions, super fresh ingredients and friendly service. The tiramisu is not to be missed!"
+    },
+    {
+      "type": "restaurant",
+      "lang": "es",
+      "rating": 4,
+      "title": "Comida muy buena, algo de espera",
+      "text": "La comida estaba riquísima y los precios son razonables. Tuvimos que esperar casi media hora para conseguir mesa, pero valió la pena. El camarero nos recomendó un vino local excelente.",
+      "english_title": "Very good food, a bit of a wait",
+      "english": "The food was delicious and the prices are reasonable. We had to wait almost half an hour to get a table, but it was worth it. The waiter recommended an excellent local wine."
+    },
+    {
+      "type": "restaurant",
+      "lang": "fr",
+      "rating": 2,
+      "title": "Décevant pour le prix",
+      "text": "Cadre agréable, mais les plats manquaient cruellement de saveur. Le service était lent et l'addition bien salée pour ce que nous avons mangé. Dommage, nous espérions mieux à {city}.",
+      "english_title": "Disappointing for the price",
+      "english": "Pleasant setting, but the dishes sorely lacked flavor. The service was slow and the bill very steep for what we ate. A shame, we hoped for better in {city}."
+    },
+    {
+      "type": "restaurant",
+      "lang": "ja",
+      "rating": 5,
+      "title": "また行きたいお店",
+      "text": "料理はどれも美味しく、特に看板メニューは絶品でした。店内の雰囲気も落ち着いていて、ゆっくり食事を楽しめました。スタッフの方も親切でした。",
+      "english_title": "A place I want to go back to",
+      "english": "Every dish was delicious, and the signature dish in particular was superb. The atmosphere inside was calm, so we could enjoy our meal at a leisurely pace. The staff were kind too."
+    },
+    {
+      "type": "restaurant",
+      "lang": "ko",
+      "rating": 3,
+      "title": "맛은 괜찮지만 비싸요",
+      "text": "음식 맛은 괜찮았지만 양이 좀 적었어요. 분위기는 좋은데 가격에 비해 아쉬운 점이 있습니다. 그래도 디저트는 정말 맛있었어요.",
+      "english_title": "Tasty enough, but expensive",
+      "english": "The food tasted fine, but the portions were a bit small. The atmosphere is nice, but it falls a little short for the price. Still, the dessert was really delicious."
+    },
+    {
+      "type": "restaurant",
+      "lang": "pt",
+      "rating": 1,
+      "title": "Péssima experiência",
+      "text": "Esperamos mais de uma hora pela comida e, quando chegou, estava fria. O garçom foi grosseiro quando reclamamos. Não recomendo para ninguém.",
+      "english_title": "Terrible experience",
+      "english": "We waited more than an hour for the food and, when it arrived, it was cold. The waiter was rude when we complained. I wouldn't recommend it to anyone."
+    },
+    {
+      "type": "attraction",
+      "lang": "de",
+      "rating": 5,
+      "title": "Ein absolutes Muss",
+      "text": "{place} ist einfach atemberaubend. Wir waren früh morgens da und mussten kaum anstehen. Der Audioguide ist sehr informativ und die Aussicht von oben ist unvergesslich.",
+      "english_title": "An absolute must",
+      "english": "{place} is simply breathtaking. We were there early in the morning and hardly had to queue. The audio guide is very informative and the view from the top is unforgettable."
+    },
+    {
+      "type": "attraction",
+      "lang": "it",
+      "rating": 3,
+      "title": "Bello ma troppo affollato",
+      "text": "Il posto è splendido, ma c'era una folla incredibile e abbiamo fatto più di un'ora di coda. Consiglio di prenotare il biglietto online e di arrivare presto.",
+      "english_title": "Beautiful but too crowded",
+      "english": "The place is splendid, but there was an incredible crowd and we queued for more than an hour. I recommend booking your ticket online and arriving early."
+    },
+    {
+      "type": "attraction",
+      "lang": "nl",
+      "rating": 4,
+      "title": "Mooi en interessant",
+      "text": "Heel mooie plek met veel interessante informatie over de geschiedenis van {city}. Het was wel druk, maar nog goed te doen. Trek er gerust twee à drie uur voor uit.",
+      "english_title": "Beautiful and interesting",
+      "english": "A really beautiful place with lots of interesting information about the history of {city}. It was busy, but still very manageable. Feel free to set aside two to three hours."
+    },
+    {
+      "type": "attraction",
+      "lang": "es",
+      "rating": 2,
+      "title": "No vale lo que cuesta",
+      "text": "La entrada es carísima y la mitad de las salas estaban cerradas. Además, había muy poca información en español o en inglés. Esperábamos mucho más de {place}.",
+      "english_title": "Not worth what it costs",
+      "english": "The ticket is very expensive and half the rooms were closed. On top of that, there was very little information in Spanish or English. We expected much more from {place}."
+    },
+    {
+      "type": "attraction",
+      "lang": "ja",
+      "rating": 5,
+      "title": "子供も大満足",
+      "text": "家族で訪れましたが、子供たちもとても楽しんでいました。景色が素晴らしく、写真をたくさん撮りました。トイレやカフェも清潔で快適でした。",
+      "english_title": "The kids loved it too",
+      "english": "We visited as a family, and the children really enjoyed it as well. The scenery was wonderful and we took lots of photos. The toilets and café were also clean and comfortable."
+    },
+    {
+      "type": "attraction",
+      "lang": "fr",
+      "rating": 1,
+      "title": "Un vrai piège à touristes",
+      "text": "Deux heures de queue en plein soleil pour voir quelques salles mal entretenues. Le personnel était désagréable et les toilettes dans un état lamentable. À éviter absolument.",
+      "english_title": "A real tourist trap",
+      "english": "Two hours of queuing in the full sun to see a few poorly maintained rooms. The staff were unpleasant and the toilets were in a deplorable state. Avoid at all costs."
+    },
+    {
+      "type": "experience",
+      "lang": "es",
+      "rating": 5,
+      "title": "¡Una experiencia inolvidable!",
+      "text": "Nuestro guía fue increíble: divertido, simpático y con muchísimos conocimientos. El grupo era pequeño y las degustaciones, muy generosas. ¡Lo repetiríamos sin dudarlo!",
+      "english_title": "An unforgettable experience!",
+      "english": "Our guide was amazing: fun, friendly and incredibly knowledgeable. The group was small and the tastings very generous. We'd do it again without hesitation!"
+    },
+    {
+      "type": "experience",
+      "lang": "it",
+      "rating": 4,
+      "title": "Tour ben organizzato",
+      "text": "Tutto ben organizzato, dal punto d'incontro fino alla fine. La guida parlava un ottimo inglese e ci ha raccontato tante curiosità su {city}. Forse un po' di fretta verso la fine.",
+      "english_title": "A well-organized tour",
+      "english": "Everything was well organized, from the meeting point to the very end. The guide spoke excellent English and told us lots of interesting facts about {city}. Perhaps a little rushed towards the end."
+    },
+    {
+      "type": "experience",
+      "lang": "pt",
+      "rating": 5,
+      "title": "Valeu cada centavo",
+      "text": "Passeio maravilhoso! O guia era muito simpático e as paisagens são de tirar o fôlego. Tiramos fotos incríveis e a comida incluída estava ótima.",
+      "english_title": "Worth every cent",
+      "english": "A wonderful tour! The guide was very friendly and the scenery is breathtaking. We took incredible photos and the food that was included was great."
+    },
+    {
+      "type": "experience",
+      "lang": "de",
+      "rating": 2,
+      "title": "Viel zu große Gruppe",
+      "text": "Leider waren wir über 40 Personen, sodass man den Guide kaum verstehen konnte. Der Treffpunkt war schlecht beschrieben und wir sind verspätet losgefahren. Für den Preis enttäuschend.",
+      "english_title": "Far too big a group",
+      "english": "Unfortunately there were more than 40 of us, so you could hardly understand the guide. The meeting point was poorly described and we set off late. Disappointing for the price."
+    },
+    {
+      "type": "experience",
+      "lang": "ko",
+      "rating": 4,
+      "title": "재미있고 유익한 투어",
+      "text": "가이드님이 설명을 정말 재미있게 해 주셔서 시간 가는 줄 몰랐어요. 사진 찍기 좋은 장소에도 많이 데려가 주셨어요. 다만 일정이 조금 빡빡했어요.",
+      "english_title": "A fun and informative tour",
+      "english": "The guide explained everything in such an entertaining way that the time flew by. They also took us to lots of great photo spots. The schedule was a little tight, though."
+    },
+    {
+      "type": "experience",
+      "lang": "nl",
+      "rating": 1,
+      "title": "Slecht georganiseerd",
+      "text": "De ophaalservice kwam een uur te laat en niemand nam de telefoon op. De gids had duidelijk geen zin en we werden overal doorheen gejaagd. Zonde van ons geld.",
+      "english_title": "Badly organized",
+      "english": "The pickup came an hour late and nobody answered the phone. The guide clearly couldn't be bothered and we were rushed through everything. A waste of our money."
+    }
+  ]
+}
